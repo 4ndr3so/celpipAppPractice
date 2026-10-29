@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CELPIP Speaking Test Simulator | Official 8-Task Practice</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top App Navigation Bar -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="header-brand">
+        <span class="brand-flag">🍁</span>
+        <div class="brand-info">
+          <h1 class="brand-title">CELPIP Speaking Simulator</h1>
+          <span class="brand-subtitle">Paragon / Prometric Official Timing & Exam Structure</span>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <div id="header-task-label" class="header-task-counter">Task 1 of 8</div>
+        <div class="task-dots-container" id="task-nav-dots">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+
+      <div class="header-right">
+        <span id="header-mode-badge" class="badge badge-exam">FULL EXAM SIMULATION</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-content">
+
+    <!-- ============================================== -->
+    <!-- VIEW 1: SETUP & ONBOARDING -->
+    <!-- ============================================== -->
+    <section id="view-setup" class="view-panel">
+      <div class="setup-hero">
+        <h2>CELPIP Speaking Practice Simulator</h2>
+        <p class="hero-lead">
+          Master all 8 official tasks of the CELPIP Speaking section with authentic timers, 
+          automated test-center progression, visual scenes, and instant audio playback review.
+        </p>
+      </div>
+
+      <!-- Strategy & 8 Tasks Summary Grid -->
+      <div class="task-formulas-summary">
+        <h3 class="section-title">The 8 Speaking Tasks & Success Formulas</h3>
+        <div class="summary-cards-grid">
+          <div class="summary-card">
+            <div class="card-task-num">Task 1</div>
+            <h4>Giving Advice</h4>
+            <div class="formula-pill">Empathy → Advice 1 → Advice 2 → Encouragement</div>
+            <p class="timing-meta">⏱️ Prep: 30s | Speaking: 90s</p>
+          </div>
+
+          <div class="summary-card">
+            <div class="card-task-num">Task 2</div>
+            <h4>Talking about Personal Experience</h4>
+            <div class="formula-pill">Context → What happened → Details → Outcome</div>
+            <p class="timing-meta">⏱️ Prep: 30s | Speaking: 60s</p>
+          </div>
+
+          <div class="summary-card">
+            <div class="card-task-num">Task 3</div>
+            <h4>Describing a Scene</h4>
+            <div class="formula-pill">General overview → Left/center/right → Details</div>
+            <p class="timing-meta">⏱️ Prep: 30s | Speaking: 60s (Image)</p>
+          </div>
+
+          <div class="summary-card">
+            <div class="card-task-num">Task 4</div>
+            <h4>Making Predictions</h4>
+            <div class="formula-pill">Describe scene → Predict events → Explain why</div>
+            <p class="timing-meta">⏱️ Prep: 30s | Speaking: 60s (Same Image)</p>
+          </div>
+
+          <div class="summary-card">
+            <div class="card-task-num">Task 5</div>
+            <h4>Comparing and Persuading</h4>
+            <div class="formula-pill">Option A vs. B → Choose → Reasons → Persuade</div>
+            <p class="timing-meta">⏱️ Choose: 60s | Prep: 60s | Speaking: 60s</p>
+          </div>
+
+          <div class="summary-card">
+            <div class="card-task-num">Task 6</div>
+            <h4>Dealing with Difficult Situation</h4>
+            <div class="formula-pill">Acknowledge → Explain → Solution → Close</div>
+            <p class="timing-meta">⏱️ Prep: 60s | Speaking: 60s</p>
+          </div>
+
+          <div class="summary-card">
+            <div class="card-task-num">Task 7</div>
+            <h4>Expressing Opinions</h4>
+            <div class="formula-pill">Opinion → Reason 1 → Reason 2 → Conclusion</div>
+            <p class="timing-meta">⏱️ Prep: 30s | Speaking: 90s</p>
+          </div>
+
+          <div class="summary-card">
+            <div class="card-task-num">Task 8</div>
+            <h4>Describing an Unusual Situation</h4>
+            <div class="formula-pill">Identify situation → Details → Significance</div>
+            <p class="timing-meta">⏱️ Prep: 30s | Speaking: 60s (Unusual Image)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Configuration & Microphone Test -->
+      <div class="setup-controls-panel">
+        <div class="config-grid">
+          <!-- Setup Options -->
+          <div class="config-card">
+            <h4>1. Select Question Bank</h4>
+            <p class="config-desc">Choose whether to draw a randomized mix from our 128-question bank or practice a fixed set:</p>
+            <div class="form-group">
+              <label for="question-set-selector">Question Set:</label>
+              <select id="question-set-selector" class="form-control">
+                <option value="random" selected>🎲 Randomized Mix (Fresh question for each task)</option>
+                <option value="0">Practice Set 1 (Airport, EV vs SUV, City Move)</option>
+                <option value="1">Practice Set 2 (Farmers Market, Condo vs Townhouse)</option>
+                <option value="2">Practice Set 3 (City Park, Resort vs Cultural Tour)</option>
+                <option value="3">Practice Set 4 (Tech Office, Bootcamp vs Online Learning)</option>
+                <option value="4">Practice Set 5 (Hospital, Rescue Dog vs Breeder Puppy)</option>
+                <option value="5">Practice Set 6 (Library, Laptop vs Desktop PC)</option>
+                <option value="6">Practice Set 7 (Campground, Boutique Gym vs Budget 24/7)</option>
+                <option value="7">Practice Set 8 (Subway, Startup vs Crown Corp Job)</option>
+                <option value="8">Practice Set 9 (Construction Site, Flagship vs Rugged Phone)</option>
+                <option value="9">Practice Set 10 (Supermarket, Barn vs Waterfront Wedding)</option>
+                <option value="10">Practice Set 11 (Gym, Quartz vs Granite Kitchen)</option>
+                <option value="11">Practice Set 12 (Artisan Cafe, Zipline vs Escape Room)</option>
+                <option value="12">Practice Set 13 (Beach Boardwalk, E-Bike vs Transit Pass)</option>
+                <option value="13">Practice Set 14 (Commercial Kitchen, Espresso vs Pod Machine)</option>
+                <option value="14">Practice Set 15 (Dog Park, Banff Camping vs Whistler Spa)</option>
+                <option value="15">Practice Set 16 (Museum Hall, Hockey vs Violin Lessons)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="practice-task-selector">Start at Task (for Practice Mode):</label>
+              <select id="practice-task-selector" class="form-control">
+                <option value="1">Task 1: Giving Advice</option>
+                <option value="2">Task 2: Personal Experience</option>
+                <option value="3">Task 3: Describing a Scene</option>
+                <option value="4">Task 4: Making Predictions</option>
+                <option value="5">Task 5: Comparing and Persuading</option>
+                <option value="6">Task 6: Difficult Situation</option>
+                <option value="7">Task 7: Expressing Opinions</option>
+                <option value="8">Task 8: Unusual Situation</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Microphone Test -->
+          <div class="config-card">
+            <h4>2. Microphone Test</h4>
+            <p class="config-desc">Click below to ensure your browser detects your voice clearly:</p>
+            <button id="btn-test-mic" class="btn btn-secondary btn-block">
+              🎙️ Test Microphone Connection
+            </button>
+            <div class="mic-visualizer-container">
+              <div class="mic-meter-track">
+                <div id="setup-mic-meter" class="mic-meter-fill"></div>
+              </div>
+              <canvas id="setup-mic-canvas" width="280" height="50" class="mini-canvas"></canvas>
+            </div>
+            <p class="mic-hint">Speak a few words into your microphone. If the meter bounces green, you are good to go!</p>
+          </div>
+        </div>
+
+        <!-- Launch Buttons -->
+        <div class="launch-actions">
+          <button id="btn-start-full-exam" class="btn btn-primary btn-large">
+            🚀 Start Full Exam Simulation (Automatic Timers & Progression)
+          </button>
+          <button id="btn-start-practice" class="btn btn-outline-primary btn-large">
+            🛠️ Practice Mode (Pause & Drill Specific Tasks)
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================== -->
+    <!-- VIEW 2: ACTIVE EXAM SIMULATOR -->
+    <!-- ============================================== -->
+    <section id="view-exam" class="view-panel hidden">
+      <!-- Top Exam Control Bar -->
+      <div class="exam-status-bar">
+        <div class="timer-section">
+          <div class="timer-meta">
+            <span id="timer-phase-label" class="timer-phase-title">Preparation Time:</span>
+            <span id="timer-display" class="timer-digits">00:30</span>
+          </div>
+          <div class="timer-progress-track">
+            <div id="timer-progress-bar" class="progress-bar-fill progress-prep"></div>
+          </div>
+        </div>
+
+        <div class="recording-status-box">
+          <div id="live-indicator" class="status-indicator status-prep">
+            <span class="status-dot"></span>
+            <span id="live-indicator-text">PREPARATION TIME</span>
+          </div>
+          <canvas id="visualizer-canvas" width="160" height="40" class="live-visualizer"></canvas>
+        </div>
+      </div>
+
+      <!-- Coaching Strategy & Hints Toggle Sub-Bar -->
+      <div class="exam-sub-bar">
+        <button id="btn-toggle-hints" class="btn btn-sm btn-hints-toggle" type="button">
+          💡 Show Formula & Hints
+        </button>
+        <span id="exam-hint-mode-indicator" class="hint-mode-status">
+          🔒 Authentic Exam Mode (Hints Hidden)
+        </span>
+      </div>
+
+      <!-- Strategy Formula Banner (Collapsible) -->
+      <div id="formula-banner-wrapper" class="formula-banner hidden">
+        <div class="formula-header-line">
+          <div class="formula-left">
+            <span class="formula-title-badge">TASK FORMULA</span>
+            <span id="formula-badge" class="formula-text">Empathy → Advice 1 → Advice 2 → Encouragement</span>
+          </div>
+          <button id="formula-toggle-btn" class="btn btn-xs btn-outline">
+            📋 Step Breakdown
+          </button>
+        </div>
+        <div id="formula-details" class="formula-dropdown hidden">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+
+      <!-- Main Task Presentation Area -->
+      <div class="task-stage-grid">
+        <!-- Left: Prompt Column -->
+        <div class="task-column left-column">
+          <div class="task-heading-box">
+            <h2 id="task-title" class="task-main-title">Task 1: Giving Advice</h2>
+            <p id="task-subtitle" class="task-sub-title">Help a person solve a problem or make a decision</p>
+          </div>
+
+          <div id="prompt-container">
+            <!-- Dynamic prompt content -->
+          </div>
+        </div>
+
+        <!-- Right: Media / Comparison Column -->
+        <div class="task-column right-column">
+          <div id="media-container">
+            <!-- Dynamic scene image, Task 5 comparison, or Task 6 dilemma -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Action Bar -->
+      <div class="exam-bottom-bar">
+        <div class="action-buttons-group">
+          <button id="btn-start-speaking" class="btn btn-success">
+            🎙️ Start Speaking Now (Skip Prep)
+          </button>
+          <button id="btn-finish-task" class="btn btn-secondary" disabled>
+            ⏭️ Finish Task Early
+          </button>
+        </div>
+
+        <div id="practice-controls" class="practice-controls-group hidden">
+          <button id="btn-pause-resume" class="btn btn-sm btn-outline">
+            ⏸️ Pause
+          </button>
+          <button id="btn-restart-task" class="btn btn-sm btn-outline">
+            🔄 Restart This Task
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================== -->
+    <!-- VIEW 3: RESULTS & AUDIO REVIEW DASHBOARD -->
+    <!-- ============================================== -->
+    <section id="view-results" class="view-panel hidden">
+      <div class="results-hero">
+        <div class="results-badge">EXAM COMPLETE</div>
+        <h2>Speaking Test Review & Audio Export</h2>
+        <p class="results-lead">
+          Listen back to your recordings for each of the 8 tasks, check your speech-to-text transcript metrics, 
+          and download your audio files for evaluation.
+        </p>
+        <div class="results-actions-top">
+          <button id="btn-download-all" class="btn btn-primary">
+            📦 Download All Audio Recordings
+          </button>
+          <button id="btn-retake-exam" class="btn btn-outline-primary">
+            🔄 Start New Exam Simulation
+          </button>
+        </div>
+      </div>
+
+      <!-- Self Evaluation Rubric -->
+      <div class="rubric-card">
+        <h3>CELPIP Speaking Performance Standards (Self-Evaluation Checklist)</h3>
+        <div class="rubric-grid">
+          <div class="rubric-item">
+            <h4>1. Content / Coherence</h4>
+            <p>Did you follow the task formula? Did you include concrete details, clear organization, and logical transitions?</p>
+          </div>
+          <div class="rubric-item">
+            <h4>2. Vocabulary</h4>
+            <p>Did you use varied, precise terminology, idioms, and natural collocations without repeating words?</p>
+          </div>
+          <div class="rubric-item">
+            <h4>3. Listenability</h4>
+            <p>Was your speech easy to understand with clear pronunciation, proper rhythm, and minimal pauses/fillers?</p>
+          </div>
+          <div class="rubric-item">
+            <h4>4. Task Fulfillment</h4>
+            <p>Did you address every aspect of the prompt and match the appropriate tone for the persona?</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tasks Audio Playback List -->
+      <div class="results-tasks-list" id="results-tasks-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal for Image Zoom -->
+  <div id="image-modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="close-modal-btn" class="modal-close" aria-label="Close modal">&times;</button>
+      <img id="modal-img" src="" alt="Enlarged visual" />
+      <p id="modal-caption" class="modal-caption"></p>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="js/audio-recorder.js"></script>
+  <script src="js/speech-recognition.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2199 @@
+{
+  "tasks": {
+    "1": {
+      "taskNumber": 1,
+      "title": "Giving Advice",
+      "subtitle": "Help a person solve a problem or make a decision",
+      "formula": "Empathy → Advice 1 → Advice 2 → Encouragement",
+      "formulaSteps": [
+        {
+          "step": "Empathy",
+          "description": "Acknowledge their situation and validate how they feel.",
+          "starters": [
+            "Hi [Name], I heard that you're...",
+            "I completely understand how overwhelming it feels to...",
+            "Don't worry, it's totally normal to feel nervous about..."
+          ]
+        },
+        {
+          "step": "Advice 1",
+          "description": "Give your first clear recommendation with reasons and practical details.",
+          "starters": [
+            "First of all, what I'd strongly suggest is...",
+            "To begin with, you should definitely consider...",
+            "My first piece of advice is to..."
+          ]
+        },
+        {
+          "step": "Advice 2",
+          "description": "Offer a second distinct suggestion with an explanation of its benefits.",
+          "starters": [
+            "Another thing that worked wonders for me was...",
+            "In addition to that, why don't you...",
+            "Secondly, it would be really helpful if you could..."
+          ]
+        },
+        {
+          "step": "Encouragement",
+          "description": "End on a positive, supportive note offering your continued help.",
+          "starters": [
+            "I'm confident you'll do great!",
+            "Give me a call if you need anything else, okay?",
+            "You've got this, and I know everything will turn out well!"
+          ]
+        }
+      ],
+      "prepTime": 30,
+      "speakTime": 90,
+      "questions": [
+        {
+          "id": "T1_Q1",
+          "title": "Friend Moving to a New City",
+          "targetAudience": "Your close friend Mark",
+          "prompt": "Your close friend Mark is moving to a new city across the country for a new job next month. He feels stressed about finding an apartment, making friends, and adjusting to the cold winter climate. Advise him on how to settle in smoothly and make the transition easier.",
+          "keyPoints": [
+            "Research safe neighborhoods near transit before signing a long lease",
+            "Join local hobby clubs, sports leagues, or volunteer groups to meet people",
+            "Invest in proper winter attire (thermal layers, waterproof boots, insulated coat)"
+          ],
+          "sampleStarters": [
+            "Hey Mark, congratulations on the new job!",
+            "If I were in your shoes, I would first...",
+            "Furthermore, don't forget that..."
+          ]
+        },
+        {
+          "id": "T1_Q2",
+          "title": "Colleague Preparing for a Job Interview",
+          "targetAudience": "Your coworker Jessica",
+          "prompt": "Your colleague Jessica has been shortlisted for a senior managerial role at your company. She feels insecure because it is her first managerial interview and she is terrified of answering difficult behavioral questions. Advise her on how to prepare and perform confidently.",
+          "keyPoints": [
+            "Use the STAR method (Situation, Task, Action, Result) to structure answers",
+            "Do mock interview practice with a friend or record herself on video",
+            "Prepare 2-3 thoughtful questions about company leadership and vision"
+          ],
+          "sampleStarters": [
+            "Hi Jessica, congratulations on making the shortlist!",
+            "The first thing that will really boost your confidence is...",
+            "Secondly, remember to structure your stories with..."
+          ]
+        },
+        {
+          "id": "T1_Q3",
+          "title": "Neighbor Adopting a First Dog",
+          "targetAudience": "Your neighbor Brian",
+          "prompt": "Your neighbor Brian is planning to adopt a puppy for the first time. He lives alone in an apartment and works full-time. He is worried about how to balance pet care, house training, and daily exercise. Give him advice on how to care for his new dog responsibly.",
+          "keyPoints": [
+            "Set a consistent daily routine for walks, feeding, and bathroom breaks",
+            "Crate train early and puppy-proof the apartment to prevent anxiety",
+            "Consider hiring a midday dog-walker or enrolling in doggy daycare"
+          ],
+          "sampleStarters": [
+            "Hey Brian, that's such exciting news about the puppy!",
+            "To start off, you definitely want to establish...",
+            "Another thing to look into is..."
+          ]
+        },
+        {
+          "id": "T1_Q4",
+          "title": "Sibling Buying a First Used Car",
+          "targetAudience": "Your younger brother Liam",
+          "prompt": "Your younger brother Liam has saved some money and wants to buy his first used car. He has never owned a vehicle before and feels overwhelmed by online listings, dealerships, and the risk of buying a defective car. Advise him on what steps he should take before making a purchase.",
+          "keyPoints": [
+            "Get a pre-purchase mechanical inspection from an independent certified mechanic",
+            "Verify the vehicle history report (accidents, liens, previous owners via Carfax)",
+            "Budget for hidden costs: insurance premiums, registration, winter tires, and maintenance"
+          ],
+          "sampleStarters": [
+            "Hey Liam, congrats on saving up for your first vehicle!",
+            "First and foremost, before you hand over any money...",
+            "Also, don't forget to factor in..."
+          ]
+        },
+        {
+          "id": "T1_Q5",
+          "title": "Friend Overwhelmed by Workplace Stress",
+          "targetAudience": "Your friend Sarah",
+          "prompt": "Your good friend Sarah has been working 60-hour weeks at her corporate job and is experiencing severe burnout and insomnia. She is afraid of speaking to her manager because she doesn't want to appear incapable. Advise Sarah on how to regain work-life balance and handle the situation.",
+          "keyPoints": [
+            "Schedule a calm, professional 1-on-1 meeting with her manager to discuss workload prioritization",
+            "Establish strict daily digital boundaries (turn off work notifications after 6 PM)",
+            "Engage in restorative activities such as evening walks, meditation, or professional counseling"
+          ],
+          "sampleStarters": [
+            "Hi Sarah, I'm really sorry to hear how stressed you've been.",
+            "The most important step right now is to...",
+            "On top of that, you really should set..."
+          ]
+        },
+        {
+          "id": "T1_Q6",
+          "title": "Cousin Choosing a College Major",
+          "targetAudience": "Your cousin Alex",
+          "prompt": "Your cousin Alex has just finished high school and cannot decide between studying Computer Science (which has strong job prospects) and Fine Arts (which is their true creative passion). They are feeling pressured by family expectations. Give Alex advice on how to navigate this important life decision.",
+          "keyPoints": [
+            "Consider a dual major or a minor that combines both fields (e.g., UI/UX design, digital animation, game development)",
+            "Shadow or speak with working professionals in both industries to understand day-to-day reality",
+            "Remember that your first degree doesn't define your entire life path, and skills can always be blended"
+          ],
+          "sampleStarters": [
+            "Hey Alex, I know choosing a college path can feel overwhelming.",
+            "Have you thought about finding an intersection like...",
+            "Secondly, why don't you reach out to..."
+          ]
+        },
+        {
+          "id": "T1_Q7",
+          "title": "Friend Starting an Exercise Routine",
+          "targetAudience": "Your friend Daniel",
+          "prompt": "Your friend Daniel wants to get back into physical shape after several years of being inactive. He bought an expensive gym membership but feels intimidated by the equipment and lacks the motivation to go consistently. Advise Daniel on how to build a sustainable fitness routine without getting discouraged.",
+          "keyPoints": [
+            "Start small with 20-30 minute basic sessions or bodyweight exercises 3 days a week",
+            "Book a free introductory session with a personal trainer to learn correct form and feel confident",
+            "Find an accountability workout buddy or try engaging group fitness classes"
+          ],
+          "sampleStarters": [
+            "Hey Daniel, it's great that you're taking steps toward better health!",
+            "First off, please don't push yourself too hard at the start...",
+            "Another practical tip is to find..."
+          ]
+        },
+        {
+          "id": "T1_Q8",
+          "title": "Coworker Relocating with Small Children",
+          "targetAudience": "Your colleague Michael",
+          "prompt": "Your colleague Michael is moving to a suburban town 40 kilometers outside the city with his spouse and two young children (ages 4 and 7). He is worried about his longer commute, finding quality schools, and helping his kids adjust to leaving their old friends. Give Michael advice on managing this family move.",
+          "keyPoints": [
+            "Involve the children in the moving process by letting them pack their favorite toys and choose room colors",
+            "Take advantage of the train or transit commute to read, relax, or catch up on podcasts rather than driving in traffic",
+            "Connect with school parent associations and neighborhood community centers before moving day"
+          ],
+          "sampleStarters": [
+            "Hi Michael, moving with young kids is certainly a big transition!",
+            "To make it easier for the kids, I recommend...",
+            "As for your commute, consider using the train so that..."
+          ]
+        },
+        {
+          "id": "T1_Q9",
+          "title": "Friend Transitioning to a Plant-Based Diet",
+          "targetAudience": "Your friend Marcus",
+          "prompt": "Your close friend Marcus wants to transition to a vegetarian or plant-based diet for health and environmental reasons. However, he loves meat, doesn't know how to cook tofu or legumes, and is worried about feeling hungry and losing energy. Advise Marcus on how to transition smoothly without feeling deprived.",
+          "keyPoints": [
+            "Start gradually with 'Meatless Mondays' or substituting plant-based grounds into familiar recipes (like pasta or tacos)",
+            "Focus on protein-rich alternatives such as lentils, chickpeas, edamame, and Greek yogurt or nuts",
+            "Explore engaging plant-based food blogs and YouTube cooking channels for flavorful marinades and spices"
+          ],
+          "sampleStarters": [
+            "Hey Marcus, I think it's fantastic that you're exploring a plant-based lifestyle!",
+            "First of all, you don't have to quit meat cold turkey overnight...",
+            "Another great strategy is to experiment with..."
+          ]
+        },
+        {
+          "id": "T1_Q10",
+          "title": "Neighbor Planning a DIY Home Renovation",
+          "targetAudience": "Your neighbor Brenda",
+          "prompt": "Your neighbor Brenda has decided to remodel her outdated kitchen and bathroom by herself on a strict budget. She has very little carpentry experience and is feeling overwhelmed by power tools, plumbing permits, and design decisions. Give Brenda practical advice on how to approach her renovation safely and cost-effectively.",
+          "keyPoints": [
+            "Focus on high-impact cosmetic upgrades first (painting cabinets, swapping hardware, Peel-and-stick backsplash)",
+            "Hire a certified licensed professional for high-risk electrical and plumbing work to avoid code violations",
+            "Rent specialized tools from local hardware stores rather than buying expensive machinery"
+          ],
+          "sampleStarters": [
+            "Hi Brenda, tackling a home renovation is a huge project!",
+            "My first recommendation would be to start with...",
+            "Additionally, when it comes to plumbing or wiring, definitely..."
+          ]
+        },
+        {
+          "id": "T1_Q11",
+          "title": "Colleague Overcoming Public Speaking Anxiety",
+          "targetAudience": "Your coworker Oliver",
+          "prompt": "Your colleague Oliver has been asked to deliver a 20-minute keynote presentation to all regional managers next month. He suffers from intense stage fright, gets dry mouth, and fears his mind will go completely blank on stage. Advise Oliver on how to overcome speech anxiety and deliver a polished presentation.",
+          "keyPoints": [
+            "Practice deep diaphragmatic breathing and power poses 5 minutes before taking the stage",
+            "Rehearse aloud multiple times in front of trusted coworkers or record yourself on your smartphone",
+            "Keep slides visual with minimal bullet points so you can speak naturally rather than reading"
+          ],
+          "sampleStarters": [
+            "Hey Oliver, I completely understand how nerve-wracking big presentations can feel.",
+            "The best thing you can do right now is...",
+            "Furthermore, try shifting your mindset so that..."
+          ]
+        },
+        {
+          "id": "T1_Q12",
+          "title": "Cousin Struggling with First Salary Budgeting",
+          "targetAudience": "Your younger cousin Chloe",
+          "prompt": "Your younger cousin Chloe just graduated and landed her first full-time job. However, after two months, she has spent her entire paycheck on takeout, clothing, and entertainment, and has zero savings for emergencies or rent. Give Chloe practical advice on managing her personal finances.",
+          "keyPoints": [
+            "Implement the 50/30/20 budgeting rule (50% needs, 30% wants, 20% savings/debt)",
+            "Set up automated paycheck transfers directly into a high-interest savings or TFSA account on payday",
+            "Track daily expenses using an intuitive budgeting mobile app or spreadsheet for 30 days"
+          ],
+          "sampleStarters": [
+            "Hey Chloe, congratulations on your first real salary!",
+            "To make sure you don't feel broke at the end of each month, I'd suggest...",
+            "On top of that, an easy trick is to automate..."
+          ]
+        },
+        {
+          "id": "T1_Q13",
+          "title": "Friend Training for a First Half-Marathon",
+          "targetAudience": "Your running buddy Nathan",
+          "prompt": "Your friend Nathan has signed up for a 21-kilometer half-marathon happening in four months. He currently can only run 5 kilometers before getting exhausted and feeling shin splints. Advise Nathan on how to build endurance safely and cross the finish line injury-free.",
+          "keyPoints": [
+            "Follow a structured training program that increases weekly mileage by no more than 10%",
+            "Visit a specialized running store to get gait analysis and proper cushioned running shoes",
+            "Prioritize cross-training, rest days, and post-run stretching to prevent overuse injuries"
+          ],
+          "sampleStarters": [
+            "Hey Nathan, training for a half-marathon is such an inspiring goal!",
+            "First off, to avoid injuries like shin splints, make sure to...",
+            "Another crucial aspect is getting fitted for..."
+          ]
+        },
+        {
+          "id": "T1_Q14",
+          "title": "Colleague Returning to University as a Mature Student",
+          "targetAudience": "Your coworker Diane",
+          "prompt": "Your colleague Diane, who is in her late 40s, is considering enrolling in an evening Master's degree program to advance her career. She is worried about balancing family responsibilities, keeping up with younger tech-savvy students, and academic writing. Advise Diane on how to navigate this academic journey.",
+          "keyPoints": [
+            "Leverage her rich real-world professional experience which adds unique depth to class discussions",
+            "Take advantage of university writing centers, student tutoring, and digital library workshops early on",
+            "Establish an honest family schedule where study hours are clearly protected and household chores are shared"
+          ],
+          "sampleStarters": [
+            "Hi Diane, going back to school is a brave and rewarding step!",
+            "Remember that your real-world experience gives you an edge because...",
+            "Secondly, don't hesitate to lean on university resources like..."
+          ]
+        },
+        {
+          "id": "T1_Q15",
+          "title": "Friend Dealing with an Unresponsive Landlord",
+          "targetAudience": "Your friend Anthony",
+          "prompt": "Your friend Anthony's rental apartment has a broken heating unit during late autumn, and his landlord has ignored his text messages and phone calls for over a week. Anthony is freezing and doesn't know whether to withhold rent or call the city. Advise Anthony on his legal rights and next steps.",
+          "keyPoints": [
+            "Document every communication in writing (email or registered letter) with photos and date stamps",
+            "Never withhold rent unilaterally without approval from the provincial Landlord and Tenant Board",
+            "Contact the municipal residential tenancy standards or city property standards office for an emergency inspection"
+          ],
+          "sampleStarters": [
+            "Hey Anthony, that sounds like an awful situation in this cold weather.",
+            "First and foremost, make sure you put everything in writing so that...",
+            "In addition, reach out to the tenancy board because landlords are legally required to..."
+          ]
+        },
+        {
+          "id": "T1_Q16",
+          "title": "Neighbor Planting an Organic Vegetable Garden",
+          "targetAudience": "Your neighbor Claire",
+          "prompt": "Your neighbor Claire wants to convert part of her backyard into a productive organic vegetable garden next spring. She has never grown vegetables before and is concerned about pests, Canadian frost dates, and poor soil quality. Give Claire advice on how to start a flourishing garden.",
+          "keyPoints": [
+            "Build raised garden beds filled with high-grade organic compost and topsoil for optimal drainage",
+            "Start with easy, hardy cold-tolerant crops such as kale, radishes, lettuce, peas, and bush beans",
+            "Consult local agricultural planting calendars to avoid planting tender crops before the last spring frost"
+          ],
+          "sampleStarters": [
+            "Hi Claire, starting a home vegetable garden is so rewarding!",
+            "To get off on the right foot, I'd strongly suggest building...",
+            "Also, be sure to check your regional frost dates so that..."
+          ]
+        }
+      ]
+    },
+    "2": {
+      "taskNumber": 2,
+      "title": "Talking about a Personal Experience",
+      "subtitle": "Tell a personal story with engaging details and clear sequence",
+      "formula": "Context → What happened → Details → Outcome",
+      "formulaSteps": [
+        {
+          "step": "Context",
+          "description": "Set the scene: state when, where, who was involved, and the background.",
+          "starters": [
+            "A memorable experience that comes to mind occurred when...",
+            "About two years ago, when I was living in...",
+            "I'll never forget the time when my family and I..."
+          ]
+        },
+        {
+          "step": "What happened",
+          "description": "Describe the main event or unexpected turning point clearly in chronological order.",
+          "starters": [
+            "It all started when we decided to...",
+            "Suddenly, out of nowhere...",
+            "The trouble began when..."
+          ]
+        },
+        {
+          "step": "Details",
+          "description": "Add vivid sensory details, emotional reactions, and key actions you took.",
+          "starters": [
+            "I vividly recall feeling...",
+            "Without hesitating, we tried to...",
+            "What made it particularly challenging was..."
+          ]
+        },
+        {
+          "step": "Outcome",
+          "description": "Explain how the situation was resolved and what you learned or how it impacted you.",
+          "starters": [
+            "In the end, everything turned out...",
+            "Looking back, that experience taught me...",
+            "Ever since that day, I always make sure to..."
+          ]
+        }
+      ],
+      "prepTime": 30,
+      "speakTime": 60,
+      "questions": [
+        {
+          "id": "T2_Q1",
+          "title": "A Memorable Vacation or Trip",
+          "prompt": "Talk about a memorable trip or vacation you took in the past. Where did you go, who were you with, what made it special, and why do you remember it so vividly?",
+          "keyPoints": [
+            "Where and when you traveled",
+            "An unforgettable event or unexpected surprise during the trip",
+            "How you felt and what lasting memory it left"
+          ]
+        },
+        {
+          "id": "T2_Q2",
+          "title": "Overcoming a Difficult Challenge",
+          "prompt": "Talk about a time when you faced a difficult challenge at work, school, or in your personal life. What was the challenge, what steps did you take to overcome it, and what did you learn?",
+          "keyPoints": [
+            "The nature of the obstacle",
+            "Your emotional state and the solution you developed",
+            "The ultimate result and valuable lesson learned"
+          ]
+        },
+        {
+          "id": "T2_Q3",
+          "title": "A Time You Helped Someone in Need",
+          "prompt": "Talk about a time when you helped a friend, family member, or a stranger who was in a difficult situation. Who was this person, what assistance did you provide, and how did you feel afterwards?",
+          "keyPoints": [
+            "Who needed help and what went wrong",
+            "What specific action you took to assist them",
+            "Their reaction and your sense of fulfillment"
+          ]
+        },
+        {
+          "id": "T2_Q4",
+          "title": "A Memorable Family Celebration",
+          "prompt": "Talk about an important family celebration or milestone that you attended in the past. What was the occasion, who attended, what special activities took place, and why was it meaningful to you?",
+          "keyPoints": [
+            "The celebration type (wedding, anniversary, milestone birthday)",
+            "Atmosphere, food, music, and special moments",
+            "Why this event holds a special place in your memory"
+          ]
+        },
+        {
+          "id": "T2_Q5",
+          "title": "Losing Something of Value",
+          "prompt": "Talk about a time when you lost something important or valuable to you (such as a wallet, passport, phone, or heirloom). Describe what happened, how you reacted, how you searched for it, and the final outcome.",
+          "keyPoints": [
+            "What item was misplaced and where you were",
+            "The panic and steps you took to trace your steps",
+            "Whether you recovered it and what precautions you take now"
+          ]
+        },
+        {
+          "id": "T2_Q6",
+          "title": "Your First Day at a New Job or School",
+          "prompt": "Talk about your first day at a new workplace, college, or school. What were your expectations, what happened throughout the day, who did you meet, and how did your feelings evolve from morning to evening?",
+          "keyPoints": [
+            "Initial nervousness or excitement before arriving",
+            "Introductions, orientation, or an unexpected funny moment",
+            "How you felt by the end of that first day"
+          ]
+        },
+        {
+          "id": "T2_Q7",
+          "title": "A Difficult Decision You Had to Make",
+          "prompt": "Talk about a major decision you had to make in your life. What were the options available to you, what factors did you weigh, who did you consult, and are you satisfied with the choice you made?",
+          "keyPoints": [
+            "The dilemma or crossroads you faced",
+            "Pros and cons you evaluated",
+            "The decision you reached and its long-term consequence"
+          ]
+        },
+        {
+          "id": "T2_Q8",
+          "title": "A Collaborative Project with Others",
+          "prompt": "Talk about a team project or community initiative that you worked on alongside other people. What was the goal of the project, what role did you play, how did the group cooperate, and what was the final achievement?",
+          "keyPoints": [
+            "The project's objective and your teammates",
+            "Disagreements or hurdles you worked through together",
+            "The rewarding outcome and team pride"
+          ]
+        },
+        {
+          "id": "T2_Q9",
+          "title": "An Unforgettable Live Concert or Sports Event",
+          "prompt": "Talk about an exciting live concert, music festival, or sporting match that you attended in person. Where was the event, who were you with, what was the energy like, and why did it leave such a strong impression on you?",
+          "keyPoints": [
+            "The venue and atmosphere of the crowd",
+            "A breathtaking or unexpected highlight during the performance",
+            "How you felt walking out of the stadium"
+          ]
+        },
+        {
+          "id": "T2_Q10",
+          "title": "Experiencing an Extreme Weather Event",
+          "prompt": "Talk about a time when you experienced extreme weather, such as a severe winter blizzard, intense thunderstorm, heatwave, or flood. Describe where you were, what precautions you took, and how you coped with the situation.",
+          "keyPoints": [
+            "The weather conditions and sudden changes",
+            "How transportation or power was affected",
+            "How you stayed safe and what you learned about emergency preparedness"
+          ]
+        },
+        {
+          "id": "T2_Q11",
+          "title": "Learning a Challenging New Skill",
+          "prompt": "Talk about a time in your life when you committed to learning a difficult new skill (such as learning to drive, swimming, coding, playing an instrument, or speaking a language). What challenges did you face and how did you persevere?",
+          "keyPoints": [
+            "The motivation behind learning the skill",
+            "Frustrations and breakthrough moments during practice",
+            "The sense of pride and confidence once you mastered it"
+          ]
+        },
+        {
+          "id": "T2_Q12",
+          "title": "Receiving a Wonderful Surprise or Unexpected Gift",
+          "prompt": "Talk about a time when someone gave you a wonderful surprise party, unexpected gift, or heartwarming gesture. Describe who organized it, what happened, your immediate reaction, and why it touched you so deeply.",
+          "keyPoints": [
+            "The surprise reveal and the setting",
+            "Your genuine emotional reaction",
+            "Why this thoughtful gesture remains unforgettable"
+          ]
+        },
+        {
+          "id": "T2_Q13",
+          "title": "A Remarkable Dining Experience",
+          "prompt": "Talk about an exceptional meal or dining experience you had in the past, either at a memorable restaurant or during a home-cooked family feast. Describe the food, the ambiance, who shared the table with you, and what made it extraordinary.",
+          "keyPoints": [
+            "The setting and cultural or culinary specialties served",
+            "The lively conversation and sensory details of the flavors",
+            "Why this specific meal stands out in your memory"
+          ]
+        },
+        {
+          "id": "T2_Q14",
+          "title": "Resolving a Misunderstanding with Someone",
+          "prompt": "Talk about a time when you experienced a communication breakdown or misunderstanding with a friend, coworker, or family member. What caused the confusion, how did you address it, and what was the ultimate resolution?",
+          "keyPoints": [
+            "The root cause of the miscommunication",
+            "The uncomfortable tension and how you initiated an open conversation",
+            "How clearing the air strengthened your relationship"
+          ]
+        },
+        {
+          "id": "T2_Q15",
+          "title": "A Scenic Road Trip You Took",
+          "prompt": "Talk about a road trip you took by car or camper van through the countryside, mountains, or coastal highways. Where did you travel, what stops or detours did you make along the way, and what made the journey memorable?",
+          "keyPoints": [
+            "The route, scenic landmarks, and travel companions",
+            "An unplanned detour or roadside discovery",
+            "The feeling of freedom and memories made on the road"
+          ]
+        },
+        {
+          "id": "T2_Q16",
+          "title": "Stepping Outside Your Comfort Zone",
+          "prompt": "Talk about a time when you took a major personal or professional risk and pushed yourself outside your comfort zone. What was the situation, what fears did you have to overcome, and how did the experience change you?",
+          "keyPoints": [
+            "The dilemma or opportunity that felt intimidating",
+            "The courage required to take the first leap",
+            "The personal growth and confidence gained from the outcome"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "taskNumber": 3,
+      "title": "Describing a Scene",
+      "subtitle": "Systematically describe what is happening in the picture right now",
+      "formula": "General overview → Left / center / right → Key details",
+      "formulaSteps": [
+        {
+          "step": "General overview",
+          "description": "State the setting, location, time, atmosphere, and general crowd activity.",
+          "starters": [
+            "This picture depicts a vibrant and busy scene in what looks like...",
+            "Overall, the image shows a bustling outdoor market filled with...",
+            "The scene captures a lively afternoon at a public park where..."
+          ]
+        },
+        {
+          "step": "Spatial breakdown",
+          "description": "Organize your description logically: foreground, background, left side, center, right side.",
+          "starters": [
+            "Starting on the left-hand side of the image, we can see...",
+            "Moving toward the center of the frame, there is a...",
+            "Over on the far right, a group of people is..."
+          ]
+        },
+        {
+          "step": "Key details & actions",
+          "description": "Describe what specific people are wearing, doing, their expressions, and interactions.",
+          "starters": [
+            "In the foreground, a young woman wearing a yellow jacket is...",
+            "Behind them in the background, two individuals appear to be...",
+            "Noticeably, the expressions on their faces indicate that..."
+          ]
+        }
+      ],
+      "prepTime": 30,
+      "speakTime": 60,
+      "questions": [
+        {
+          "id": "T3_Q1",
+          "sceneId": "SCENE_AIRPORT",
+          "title": "A Busy Airport Departure Terminal",
+          "prompt": "Describe what is happening in this picture. Give a general overview of the setting, and systematically describe the people, their activities, and key details across the scene.",
+          "imageUrl": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Bustling airport terminal with travelers rolling suitcases, checking flight boards, and queuing at check-in counters",
+          "sceneDetails": {
+            "setting": "Modern international airport terminal with large glass windows and flight departure boards",
+            "left": "A family of four struggling with multiple oversized luggage bags and a stroller near check-in kiosk",
+            "center": "A business professional in a dark trench coat hastily looking up at the electronic departure board while holding a coffee cup",
+            "right": "Airline staff assisting passengers at a baggage drop counter with a queue forming behind them"
+          }
+        },
+        {
+          "id": "T3_Q2",
+          "sceneId": "SCENE_MARKET",
+          "title": "A Bustling Farmers' Market",
+          "prompt": "Describe what is happening in this picture. Give a general overview of the market, and describe what the vendors and shoppers are doing in different parts of the image.",
+          "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Colorful outdoor farmers market with fresh produce stalls, vendors talking to customers, and wooden crates filled with vegetables",
+          "sceneDetails": {
+            "setting": "Sunlit outdoor weekend farmers' market lined with canvas tents and wooden fruit crates",
+            "left": "An elderly couple examining organic apples while speaking warmly to a farmer behind the stall",
+            "center": "A mother holding a toddler's hand while paying a vendor at a colorful vegetable display",
+            "right": "A bakery stand where customers are lining up to purchase freshly baked sourdough bread and pastries"
+          }
+        },
+        {
+          "id": "T3_Q3",
+          "sceneId": "SCENE_PARK",
+          "title": "A Sunny Community Park on the Weekend",
+          "prompt": "Describe what is happening in this picture. Give an overview of the park, and systematically describe the various recreation activities taking place.",
+          "imageUrl": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Lush green city park with people picnicking on blankets, dogs playing on the lawn, and cyclists on the path",
+          "sceneDetails": {
+            "setting": "Lush green municipal park with paved pathways, large shade trees, and flower beds",
+            "left": "Two teenagers throwing a frisbee back and forth near a park bench",
+            "center": "A group of friends sitting on a red-and-white checkered picnic blanket sharing snacks and laughing",
+            "right": "A cyclist wearing a helmet riding along the path, while nearby a man throws a tennis ball for his golden retriever"
+          }
+        },
+        {
+          "id": "T3_Q4",
+          "sceneId": "SCENE_OFFICE",
+          "title": "A Modern Open-Plan Tech Office",
+          "prompt": "Describe what is happening in this picture. Provide an overview of the workspace, and describe the interactions and work habits of the employees.",
+          "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Open plan modern office with software engineers collaborating at standing desks, laptops, and glass whiteboards",
+          "sceneDetails": {
+            "setting": "Bright contemporary open-concept office space with wooden desks, dual monitors, and large windows",
+            "left": "Two colleagues standing in front of a glass whiteboard brainstorming diagrams with colorful markers",
+            "center": "A software engineer wearing over-ear noise-canceling headphones intently typing on a laptop with multiple monitors",
+            "right": "A casual breakout sofa area where three team members are discussing notes over coffee cups"
+          }
+        },
+        {
+          "id": "T3_Q5",
+          "sceneId": "SCENE_HOSPITAL",
+          "title": "A Hospital Waiting Room",
+          "prompt": "Describe what is happening in this picture. Describe the layout of the hospital waiting lounge and what the patients, visitors, and staff are doing.",
+          "imageUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Clean, modern hospital reception and waiting area with patients seated in chairs, nurse at triage desk",
+          "sceneDetails": {
+            "setting": "Spacious healthcare reception and waiting room with rows of blue cushioned chairs and a reception counter",
+            "left": "An anxious parent comforting a young boy with a bandaged arm",
+            "center": "A triage nurse in green scrubs holding a clipboard while calling out a patient's name",
+            "right": "An elderly gentleman reading a magazine under bright overhead fluorescent lighting"
+          }
+        },
+        {
+          "id": "T3_Q6",
+          "sceneId": "SCENE_LIBRARY",
+          "title": "A University Library Study Area",
+          "prompt": "Describe what is happening in this picture. Give an overview of the study floor and detail the actions of the students preparing for exams.",
+          "imageUrl": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Historic grand university library with tall wooden bookshelves, long oak study tables, and students reading under brass lamps",
+          "sceneDetails": {
+            "setting": "Grand academic library with multi-tiered wooden bookshelves and long communal oak study tables",
+            "left": "A student standing on a rolling ladder searching for a book on a high shelf",
+            "center": "Several students sitting opposite each other surrounded by open textbooks, notebooks, and laptops",
+            "right": "A student quietly whispering to the librarian at the reference help desk in the background"
+          }
+        },
+        {
+          "id": "T3_Q7",
+          "sceneId": "SCENE_CAMP",
+          "title": "A Lakeside Campground in Summer",
+          "prompt": "Describe what is happening in this picture. Detail the outdoor camping scene, the natural surroundings, and what the campers are engaged in.",
+          "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Campsite nestled in pine trees beside a calm blue lake with pitching tents, campfire smoke, and canoes",
+          "sceneDetails": {
+            "setting": "Scenic wilderness campsite bordered by tall pine trees and a calm sparkling lake",
+            "left": "Two people working together to pitch an orange dome tent, holding metal poles and stakes",
+            "center": "A stone campfire ring with wisps of smoke rising as someone grills sausages on a metal rack",
+            "right": "Two red canoes pulled up on the gravel shoreline, with life vests hanging on a nearby wooden post"
+          }
+        },
+        {
+          "id": "T3_Q8",
+          "sceneId": "SCENE_SUBWAY",
+          "title": "A Metro Transit Station during Morning Rush",
+          "prompt": "Describe what is happening in this picture. Give an overview of the underground platform and describe the commuters and arriving train.",
+          "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Busy underground subway platform with commuters waiting behind the yellow safety line as the train approaches",
+          "sceneDetails": {
+            "setting": "Underground subway station platform with digital destination signs and tiled walls",
+            "left": "Commuters queuing behind the yellow safety tactile strip, looking down the tunnel for the incoming train",
+            "center": "A subway train decelerating into the station with headlights gleaming on the rails",
+            "right": "Turnstiles where passengers are tapping transit cards and hurrying down the tiled staircase"
+          }
+        },
+        {
+          "id": "T3_Q9",
+          "sceneId": "SCENE_CONSTRUCTION",
+          "title": "A Busy City High-Rise Construction Site",
+          "prompt": "Describe what is happening in this picture. Give a general overview of the urban construction site, and systematically describe the workers, heavy machinery, and ongoing activities.",
+          "imageUrl": "https://images.unsplash.com/photo-1541888946425-d0fbb186156f?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Bustling downtown construction site with yellow tower cranes, scaffolding, cement trucks, and workers in neon vests",
+          "sceneDetails": {
+            "setting": "Active urban building site surrounded by high-rise towers, safety fences, and heavy machinery",
+            "left": "Two construction workers in high-visibility orange vests and white hard hats examining large architectural blueprints on a wooden trestle table",
+            "center": "A massive yellow tower crane hoisting a bundle of steel reinforcement rebar high above the concrete foundation",
+            "right": "A cement mixer truck discharging wet concrete into a pump while safety marshals direct nearby vehicular traffic"
+          }
+        },
+        {
+          "id": "T3_Q10",
+          "sceneId": "SCENE_SUPERMARKET",
+          "title": "A Bustling Grocery Supermarket Produce Aisle",
+          "prompt": "Describe what is happening in this picture. Give a general overview of the supermarket, and describe what the shoppers and store staff are doing in different areas.",
+          "imageUrl": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Wide grocery store aisle with colorful fresh fruit displays, shoppers pushing carts, and a grocery clerk restocking shelves",
+          "sceneDetails": {
+            "setting": "Spacious, brightly illuminated supermarket produce section filled with wooden crates of organic fruits and vegetables",
+            "left": "A shopper in a blue puffer jacket weighing a bunch of green bananas on a digital hanging scale",
+            "center": "A mother pushing a shopping cart while her young son points excitedly at a display of red strawberries",
+            "right": "A store employee wearing a green apron restocking crates of crisp heads of lettuce from a rolling metal trolley"
+          }
+        },
+        {
+          "id": "T3_Q11",
+          "sceneId": "SCENE_GYM",
+          "title": "A Modern Fitness Center during Peak Hours",
+          "prompt": "Describe what is happening in this picture. Give an overview of the fitness facility, and systematically describe the exercise activities taking place across the room.",
+          "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Active gym floor with athletes running on treadmills, lifters at the dumbbell racks, and personal trainers coaching",
+          "sceneDetails": {
+            "setting": "Spacious modern athletic gym with rubberized flooring, mirrored walls, and rows of cardio and weight equipment",
+            "left": "Three gym members in workout gear jogging at steady paces on motorized treadmills overlooking large glass windows",
+            "center": "A personal trainer holding a stopwatch while coaching a woman performing kettlebell squats",
+            "right": "A man in athletic shorts lifting heavy dumbbells near the mirrored rack while wiping sweat with a sports towel"
+          }
+        },
+        {
+          "id": "T3_Q12",
+          "sceneId": "SCENE_CAFE",
+          "title": "A Cozy Artisan Coffee Shop",
+          "prompt": "Describe what is happening in this picture. Give an overview of the cafe atmosphere, and describe what the customers and baristas are engaged in.",
+          "imageUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Warm rustic cafe with exposed brick, baristas brewing espresso behind wooden counter, and patrons working on laptops",
+          "sceneDetails": {
+            "setting": "Warmly lit coffee shop with exposed brick walls, hanging Edison bulbs, and rustic oak communal tables",
+            "left": "A barista behind a gleaming chrome espresso machine frothing milk in a silver pitcher while taking an order",
+            "center": "Two young women sitting across a round wooden table enjoying hot lattes and laughing animatedly",
+            "right": "A customer wearing headphones typing intently on a laptop with an open notebook and glasses beside them"
+          }
+        },
+        {
+          "id": "T3_Q13",
+          "sceneId": "SCENE_BEACH",
+          "title": "A Sunny Seaside Beach Boardwalk",
+          "prompt": "Describe what is happening in this picture. Provide a general overview of the beach and boardwalk, and detail the recreational activities of beachgoers.",
+          "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Sunny ocean beach with swimmers in turquoise water, people sunbathing on colorful towels, and strollers on the boardwalk",
+          "sceneDetails": {
+            "setting": "Sun-drenched coastal beach bordered by a wooden boardwalk, soft white sand, and gentle turquoise ocean waves",
+            "left": "A group of energetic beachgoers in swimwear playing a lively game of sand volleyball over a net",
+            "center": "Children building a detailed sandcastle with plastic buckets and shovels near a striped beach umbrella",
+            "right": "Pedestrians and rollerbladers enjoying a leisurely stroll along the elevated wooden boardwalk path"
+          }
+        },
+        {
+          "id": "T3_Q14",
+          "sceneId": "SCENE_KITCHEN",
+          "title": "A Fast-Paced Restaurant Commercial Kitchen",
+          "prompt": "Describe what is happening in this picture. Provide an overview of the commercial kitchen, and detail the actions and coordination of the culinary team.",
+          "imageUrl": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Professional stainless steel restaurant kitchen with chefs in white coats cooking over flaming gas burners and plating gourmet dishes",
+          "sceneDetails": {
+            "setting": "Professional stainless-steel commercial kitchen bustling with heat, overhead heat lamps, and cookware",
+            "left": "A head chef in a white chef coat and apron carefully garnishing gourmet entrees with fresh microgreens on white porcelain plates",
+            "center": "A line cook holding a heavy skillet over an open gas flame with steam and sizzle rising into the exhaust hood",
+            "right": "A server in a black apron lifting a loaded order ticket and tray from the pass-through counter to take to the dining room"
+          }
+        },
+        {
+          "id": "T3_Q15",
+          "sceneId": "SCENE_DOGPARK",
+          "title": "A Community Off-Leash Dog Park",
+          "prompt": "Describe what is happening in this picture. Provide an overview of the grassy park, and describe the interactions between the pets and their owners.",
+          "imageUrl": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Fenced community green dog park with dogs chasing balls on the lawn and owners conversing on park benches",
+          "sceneDetails": {
+            "setting": "Fenced-in community dog park with lush grass, shade trees, and wooden park benches",
+            "left": "A border collie leaping mid-air to catch a bright yellow flying disc thrown by its owner",
+            "center": "Two playful dogs—a beagle and a golden retriever—chasing each other around a wooden agility ramp",
+            "right": "Two dog owners chatting pleasantly on a park bench while drinking travel mugs of coffee"
+          }
+        },
+        {
+          "id": "T3_Q16",
+          "sceneId": "SCENE_MUSEUM",
+          "title": "A Science and Natural History Museum Hall",
+          "prompt": "Describe what is happening in this picture. Give an overview of the museum exhibition hall, and detail what visitors and guides are doing.",
+          "imageUrl": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "High-ceiling museum exhibition hall with visitors examining illuminated fossil glass cases and children exploring interactive exhibits",
+          "sceneDetails": {
+            "setting": "Spacious grand museum gallery with vaulted ceilings, glass display vitrines, and educational touch-screens",
+            "left": "A museum docent wearing an official badge gesturing enthusiastically toward a mounted prehistoric skeleton while a family listens",
+            "center": "Two schoolchildren pressing illuminated buttons on a hands-on digital physics simulation kiosk",
+            "right": "An art enthusiast wearing spectacles leaning forward to inspect an ancient artifact behind protective glass"
+          }
+        }
+      ]
+    },
+    "4": {
+      "taskNumber": 4,
+      "title": "Making Predictions",
+      "subtitle": "Predict what will happen next based on visual clues from the scene",
+      "formula": "Describe the scene → Predict events → Explain why",
+      "formulaSteps": [
+        {
+          "step": "Link to the scene",
+          "description": "Briefly reference the picture and establish the immediate future timeline.",
+          "starters": [
+            "Looking at the picture from the previous task, several events are likely to unfold in the next few minutes...",
+            "Based on the visual cues in this scene, we can make several logical predictions about what will happen shortly...",
+            "If we observe the actions of the people right now, it is reasonable to expect that..."
+          ]
+        },
+        {
+          "step": "Prediction 1 & reason",
+          "description": "Predict what one person or group will do next and explain the visible evidence.",
+          "starters": [
+            "First, on the left side, that person will probably...",
+            "The main reason is that their luggage is already weighed and...",
+            "It seems clear that they are about to..."
+          ]
+        },
+        {
+          "step": "Prediction 2 & reason",
+          "description": "Predict another development in the center or right and back it up with clues.",
+          "starters": [
+            "Meanwhile, in the center of the image, the gentleman will likely...",
+            "Given that the departure screen is flashing, he will probably hurry toward...",
+            "Furthermore, we can anticipate that the staff will..."
+          ]
+        },
+        {
+          "step": "Conclusion",
+          "description": "Summarize the overall progression or mood of the scene going forward.",
+          "starters": [
+            "Overall, within the next five to ten minutes, the scene will become even busier as...",
+            "In short, all these interactions will lead to a successful transition for everyone involved."
+          ]
+        }
+      ],
+      "prepTime": 30,
+      "speakTime": 60,
+      "questions": [
+        {
+          "id": "T4_Q1",
+          "pairedTask3Id": "T3_Q1",
+          "title": "Predictions at the Airport Departure Terminal",
+          "prompt": "In Task 3, you described this busy airport terminal. Now, predict what will happen next in this scene. What actions will the passengers and staff take over the next 5 to 10 minutes? Use clues from the picture to support your predictions.",
+          "imageUrl": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The family on the left will finish checking in and head toward airport security screening",
+            "The hurried businessman in the trench coat will spot his gate number and rush down the concourse",
+            "The airline agent will tag the baggage, issue boarding passes, and call the next passenger forward"
+          ]
+        },
+        {
+          "id": "T4_Q2",
+          "pairedTask3Id": "T3_Q2",
+          "title": "Predictions at the Farmers' Market",
+          "prompt": "Looking at the same farmers' market picture, predict what will happen next. What will the customers and vendors do in the next several minutes? Provide reasons based on what you observe in the picture.",
+          "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The elderly couple will purchase the fresh apples and place them in their reusable tote bag",
+            "The vendor at the bakery stand will likely sell out of sourdough loaves as the queue grows",
+            "The mother and toddler will continue strolling to visit the flower stall or vegetable section"
+          ]
+        },
+        {
+          "id": "T4_Q3",
+          "pairedTask3Id": "T3_Q3",
+          "title": "Predictions at the Sunny Community Park",
+          "prompt": "Looking again at the park scene from Task 3, predict what will happen next. Describe at least two or three things likely to occur in the near future and justify your predictions with visible clues.",
+          "imageUrl": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The golden retriever will successfully catch the tennis ball and bring it back to its owner",
+            "The teenagers tossing the frisbee might accidentally throw it near the picnic blanket, prompting an apology or laugh",
+            "The cyclist will pass by safely on the paved pathway heading toward the park exit"
+          ]
+        },
+        {
+          "id": "T4_Q4",
+          "pairedTask3Id": "T3_Q4",
+          "title": "Predictions in the Modern Tech Office",
+          "prompt": "In the previous task, you described this open-plan tech office. Predict what will happen next over the coming 15 minutes. What will the engineers and collaborators do next, and why?",
+          "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The colleagues at the whiteboard will snap a photo of their architecture diagram on their phone before wiping it",
+            "The developer wearing headphones will commit their code and head to the breakroom for a fresh coffee",
+            "The informal discussion group on the couch will wrap up and return to their individual desks to implement the plan"
+          ]
+        },
+        {
+          "id": "T4_Q5",
+          "pairedTask3Id": "T3_Q5",
+          "title": "Predictions in the Hospital Waiting Room",
+          "prompt": "Looking at the hospital waiting room picture, predict what will happen in the next 10 minutes. What will the triage nurse and the waiting patients do? Base your predictions on what is happening in the scene.",
+          "imageUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The patient whose name was called will stand up and follow the nurse through the double doors into an examination room",
+            "The doctor will examine the young boy's arm and determine if an X-ray is required",
+            "The elderly gentleman will close his magazine as his turn approaches on the electronic queue screen"
+          ]
+        },
+        {
+          "id": "T4_Q6",
+          "pairedTask3Id": "T3_Q6",
+          "title": "Predictions in the Grand University Library",
+          "prompt": "Looking at the university library study room from Task 3, predict what will happen next. What will the students, librarian, and visitors do next? Explain the reasoning behind your predictions.",
+          "imageUrl": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The student on the ladder will find the desired volume, climb down carefully, and bring it to a study desk",
+            "The students studying in groups will pack their laptops and head out for lunch or to attend an upcoming lecture",
+            "The librarian will stamp a borrowed book or assist the next student with finding research archives"
+          ]
+        },
+        {
+          "id": "T4_Q7",
+          "pairedTask3Id": "T3_Q7",
+          "title": "Predictions at the Lakeside Campground",
+          "prompt": "Looking at the campground scene from Task 3, predict what will happen in the next 30 minutes. What will the campers do with their tent, food, and the lake canoes? Support your predictions with clues.",
+          "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The campers pitching the tent will finish securing the rainfly and unpack their sleeping bags",
+            "The food on the grill will be served, and the family will gather around the picnic table to eat",
+            "Later in the afternoon, someone will put on life jackets and paddle the red canoes across the lake"
+          ]
+        },
+        {
+          "id": "T4_Q8",
+          "pairedTask3Id": "T3_Q8",
+          "title": "Predictions at the Subway Station Platform",
+          "prompt": "Looking at the subway platform picture from Task 3, predict what will occur in the next 2 to 3 minutes as the train arrives. Describe the flow of passengers getting on and off.",
+          "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The train will come to a complete stop, the doors will slide open, and exiting passengers will step out first",
+            "The waiting commuters behind the yellow line will board efficiently and look for available seats or handrails",
+            "The doors will chime and close, and the train will depart into the tunnel toward the next downtown station"
+          ]
+        },
+        {
+          "id": "T4_Q9",
+          "pairedTask3Id": "T3_Q9",
+          "title": "Predictions at the City Construction Site",
+          "prompt": "In Task 3, you described this busy city construction site. Now, predict what will happen next over the next 15 minutes. What actions will the crane operator, engineers, and workers take? Use clues from the picture to support your predictions.",
+          "imageUrl": "https://images.unsplash.com/photo-1541888946425-d0fbb186156f?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The crane will lower the bundle of steel rebar onto the newly poured concrete slab for ironworkers to secure",
+            "The engineers reviewing the blueprints will walk over to the foundation pit to verify reinforcement measurements",
+            "The cement mixer truck will finish pouring its batch, rinse its chute with water, and make way for the next delivery truck"
+          ]
+        },
+        {
+          "id": "T4_Q10",
+          "pairedTask3Id": "T3_Q10",
+          "title": "Predictions at the Grocery Supermarket",
+          "prompt": "Looking at the same grocery store produce section, predict what will happen next. What will the shoppers and grocery clerks do in the coming 5 to 10 minutes? Justify your predictions with visual evidence from the scene.",
+          "imageUrl": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The shopper weighing bananas will print a price barcode sticker, affix it to the plastic bag, and place it in the cart",
+            "The mother will pick up the container of fresh strawberries for her son before wheeling the cart toward the bakery or dairy aisle",
+            "The store clerk will finish loading the lettuce display, flatten the empty cardboard cartons, and wheel the trolley back to the stockroom"
+          ]
+        },
+        {
+          "id": "T4_Q11",
+          "pairedTask3Id": "T3_Q11",
+          "title": "Predictions at the Modern Fitness Center",
+          "prompt": "Looking at the gym scene from Task 3, predict what will occur next in the next 10 minutes. What will the runners, weightlifters, and personal trainer do? Support your predictions with details from the picture.",
+          "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The runners on the treadmills will finish their cool-down intervals, grab their water bottles, and wipe down the consoles",
+            "The personal trainer will blow a whistle, announce the conclusion of the squat circuit, and demonstrate a stretching routine",
+            "The man lifting dumbbells will complete his final repetition, rack the weights safely, and head toward the hydration station"
+          ]
+        },
+        {
+          "id": "T4_Q12",
+          "pairedTask3Id": "T3_Q12",
+          "title": "Predictions at the Artisan Coffee Shop",
+          "prompt": "Looking again at the cozy artisan coffee shop from Task 3, predict what will unfold over the next 5 to 10 minutes. What actions will the barista and patrons take next?",
+          "imageUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The barista will pour latte art into a ceramic cup and call out the customer's name at the pick-up counter",
+            "The two friends chatting will finish their coffees and decide whether to order a pastry from the display case",
+            "The remote worker on the laptop will plug in their charging cable or pack up their belongings to attend an afternoon meeting"
+          ]
+        },
+        {
+          "id": "T4_Q13",
+          "pairedTask3Id": "T3_Q13",
+          "title": "Predictions at the Seaside Beach Boardwalk",
+          "prompt": "Looking at the beach boardwalk picture from Task 3, predict what will happen next. What will the volleyball players, children, and strollers do over the next 15 minutes?",
+          "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The volleyball player about to spike will score a point, and the teams will rotate positions or take a water break",
+            "The children building the sandcastle will walk down to the water's edge to fill their buckets with wet sand to build the moat",
+            "Boardwalk pedestrians will stop at the seaside ice cream kiosk or head down the wooden ramp onto the warm sand"
+          ]
+        },
+        {
+          "id": "T4_Q14",
+          "pairedTask3Id": "T3_Q14",
+          "title": "Predictions in the Restaurant Commercial Kitchen",
+          "prompt": "In Task 3, you described this commercial kitchen. Now predict what will happen in the next 3 to 5 minutes as dinner rush orders come in. What will the head chef and kitchen staff do?",
+          "imageUrl": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The server will balance the plated entrees on an oval tray and carry them out through the swinging doors into the dining room",
+            "The head chef will wipe the edge of the service pass and shout out the next ticket orders to the grill and saute stations",
+            "The line cook will plate the sauteed dish, douse the pan in the wash sink, and start heating olive oil for the next customer's order"
+          ]
+        },
+        {
+          "id": "T4_Q15",
+          "pairedTask3Id": "T3_Q15",
+          "title": "Predictions at the Off-Leash Dog Park",
+          "prompt": "Looking again at the community dog park from Task 3, predict what will occur in the next 10 minutes. What will the pets and owners do next? Give reasons based on what you see.",
+          "imageUrl": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The border collie will catch the frisbee, jog back proudly to its owner, and wait eagerly for the next throw",
+            "The two chasing dogs will tire out and jog over to the communal dog water fountain for a long drink",
+            "The owners chatting on the bench will check their watches, clip leashes back onto their dogs' collars, and head for the exit gate"
+          ]
+        },
+        {
+          "id": "T4_Q16",
+          "pairedTask3Id": "T3_Q16",
+          "title": "Predictions in the Museum Exhibition Hall",
+          "prompt": "Looking at the science and natural history museum from Task 3, predict what will happen next. What will the docent, children, and visitors do over the coming 10 minutes?",
+          "imageUrl": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=1000&auto=format&fit=crop&q=80",
+          "clues": [
+            "The museum docent will finish explaining the dinosaur skeleton and guide the group into the adjacent geology exhibit",
+            "The children at the interactive screen will complete the interactive game and eagerly run to test the next hands-on display",
+            "The art enthusiast will pull out a smartphone to take a close-up photo of the plaque description before moving to the next gallery"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "taskNumber": 5,
+      "title": "Comparing and Persuading",
+      "subtitle": "Choose one of two options, then persuade someone why your choice is superior",
+      "formula": "Option A vs. B → Choose → Reasons → Persuade",
+      "formulaSteps": [
+        {
+          "step": "Selection Phase",
+          "description": "You have 60 seconds to inspect both options, compare the features, and make your choice.",
+          "starters": [
+            "(Review specs, price, features, and target audience needs before clicking your choice)"
+          ]
+        },
+        {
+          "step": "Opening & Preference",
+          "description": "Greet the person, state clearly which option you picked, and acknowledge both choices.",
+          "starters": [
+            "Hi [Name], I've taken a close look at both options we were considering, and I strongly feel that...",
+            "Hey there, after comparing both choices thoroughly, I'm convinced we should definitely go with...",
+            "I know we've been debating between Option A and Option B, but here's why I'm backing..."
+          ]
+        },
+        {
+          "step": "Comparative Reasons",
+          "description": "Give 2 strong comparative reasons showing why your choice is better (and address weaknesses of the other option).",
+          "starters": [
+            "First and foremost, when you look at the cost and features...",
+            "Even though the other option offers..., our choice provides much better...",
+            "Another major selling point is that..."
+          ]
+        },
+        {
+          "step": "Persuasive Close",
+          "description": "Summarize the major benefit and ask for their agreement.",
+          "starters": [
+            "Taking all these factors into account, this choice makes far more sense for us.",
+            "What do you think? I really think we should finalize this today!",
+            "I'm sure you'll agree once you review the details, so let's go for it!"
+          ]
+        }
+      ],
+      "prepTime": 60,
+      "speakTime": 60,
+      "selectionTime": 60,
+      "questions": [
+        {
+          "id": "T5_Q1",
+          "title": "Choosing Between Two Vehicles: Electric Sedan vs. Hybrid SUV",
+          "targetAudience": "Your spouse Alex",
+          "prompt": "You and your spouse Alex are shopping for a new family vehicle. You must choose between an all-electric compact sedan and a mid-size hybrid SUV. Review the specifications, choose one, and persuade Alex that your choice is best for your family.",
+          "optionA": {
+            "name": "EcoVolt EV Sedan",
+            "price": "$38,500 CAD (Eligible for $5,000 rebate)",
+            "fuelEfficiency": "100% Electric (450 km range per charge)",
+            "cargoSpace": "420 Litres trunk space (Seats 5)",
+            "safetyWarranty": "8-Year Battery & Powertrain Warranty",
+            "pros": "Zero fuel expenses, home charging convenience, government rebate, zero emissions",
+            "cons": "Smaller trunk, requires charging stop on cross-country road trips",
+            "imageUrl": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "CrossPath Hybrid SUV",
+            "price": "$43,000 CAD (No government rebate)",
+            "fuelEfficiency": "Hybrid Gas-Electric (6.2 L / 100 km, 850 km total range)",
+            "cargoSpace": "780 Litres trunk space + Roof rails (Seats 5 + dog)",
+            "safetyWarranty": "5-Year Comprehensive Warranty",
+            "pros": "Huge cargo capacity, all-wheel drive for heavy snow, quick refuel anywhere",
+            "cons": "Higher purchase price, recurring gasoline costs, higher maintenance",
+            "imageUrl": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q2",
+          "title": "Choosing an Apartment: Downtown High-Rise vs. Suburban Townhouse",
+          "targetAudience": "Your roommate Jordan",
+          "prompt": "You and your roommate Jordan are deciding on a new rental home for next year. Compare the Downtown Condo and the Suburban Townhouse. Select one option and convince Jordan why it suits your lifestyle and budget better.",
+          "optionA": {
+            "name": "Skyline Downtown Condo",
+            "price": "$2,600 / month (Utilities included)",
+            "size": "2 Bedrooms, 1 Bathroom (750 sq ft)",
+            "location": "5-minute walk to subway station, restaurants, and offices",
+            "amenities": "24/7 Concierge, rooftop gym, indoor heated pool",
+            "pros": "No commute stress, vibrant nightlife, all utilities covered",
+            "cons": "Smaller bedrooms, busy street noise, expensive parking ($200/mo)",
+            "imageUrl": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "Maplewood Suburban Townhouse",
+            "price": "$2,200 / month (Utilities extra ~$250)",
+            "size": "3 Bedrooms, 2.5 Bathrooms (1,400 sq ft)",
+            "location": "Quiet suburb, 35-minute commuter train ride to downtown",
+            "amenities": "Private fenced backyard, 2-car garage, nearby nature trails",
+            "pros": "Double the living space, home office room, private patio for BBQs",
+            "cons": "Longer daily commute, need a car for grocery shopping",
+            "imageUrl": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q3",
+          "title": "Booking a Vacation: Caribbean All-Inclusive vs. European Cultural Tour",
+          "targetAudience": "Your partner Chris",
+          "prompt": "You and your partner Chris have one week of vacation saved up. Compare the Caribbean Beach Resort and the European City Tour. Choose one and persuade Chris that this will be the more rewarding and enjoyable holiday.",
+          "optionA": {
+            "name": "Palma Real All-Inclusive Resort (Mexico)",
+            "price": "$1,850 per person (Flights, 5-star hotel, food & drinks included)",
+            "pace": "Total relaxation, beach lounging, ocean swimming, spa",
+            "weather": "Sunny and 29°C every day",
+            "pros": "Zero planning required, gourmet dining on-site, pure stress relief",
+            "cons": "Less cultural immersion, confined primarily to resort grounds",
+            "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "Rome & Florence Discovery Tour (Italy)",
+            "price": "$2,300 per person (Flights and boutique hotels; meals on own)",
+            "pace": "Active, museum tours, walking historical streets, culinary dining",
+            "weather": "Pleasant spring weather, 18°C",
+            "pros": "World-class art, historical landmarks, authentic authentic cuisine",
+            "cons": "Requires 15,000 steps daily, frequent packing, more expensive food",
+            "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q4",
+          "title": "Company Training: In-Person Intensive Bootcamp vs. Self-Paced Online Course",
+          "targetAudience": "Your department director Mr. Vance",
+          "prompt": "Your team needs to upskill in cloud computing and data analytics. Your director Mr. Vance has asked you to recommend either an intensive 3-day in-person bootcamp or an annual self-paced online learning subscription. Persuade him of your preferred option.",
+          "optionA": {
+            "name": "3-Day Immersive On-Site Bootcamp",
+            "price": "$1,400 per employee (Led by certified industry instructor)",
+            "format": "3 full consecutive days in a classroom lab",
+            "interaction": "Hands-on pair programming, immediate real-time Q&A",
+            "pros": "100% completion rate, rapid skill mastery, strong team bonding",
+            "cons": "Takes team away from day-to-day work for 3 straight days",
+            "imageUrl": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "Annual Unlimited Online Learning Platform",
+            "price": "$600 per employee / year (Over 5,000 courses available)",
+            "format": "Self-paced video modules, on-demand quizzes, mobile access",
+            "interaction": "Automated grading, community discussion forum",
+            "pros": "Cheaper per person, flexible scheduling, covers multiple technologies",
+            "cons": "Historically low completion rate (~15%), no live mentorship",
+            "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q5",
+          "title": "Adopting a Pet: Adult Rescue Dog vs. Purebred Puppy from a Breeder",
+          "targetAudience": "Your partner Taylor",
+          "prompt": "You and your partner Taylor are ready to welcome a dog into your home. Compare adopting a 3-year-old shelter dog versus buying an 8-week-old golden retriever puppy from a breeder. Select one and persuade Taylor that your choice is best for your home.",
+          "optionA": {
+            "name": "Max – 3-Year-Old Labrador Mix (Shelter Rescue)",
+            "price": "$300 Adoption Fee (Vaccinated, neutered, microchipped)",
+            "temperament": "Calm, gentle, house-trained, knows basic commands",
+            "commitment": "Ready for normal walks; predictable personality and adult size",
+            "pros": "Saves an animal's life, no sleepless teething nights, minimal upfront cost",
+            "cons": "Unknown full genetic health history",
+            "imageUrl": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "Purebred Golden Retriever Puppy (Registered Breeder)",
+            "price": "$2,500 Purchase Price (Vaccines and neutering extra ~$800)",
+            "temperament": "Playful, energetic, clean slate for training",
+            "commitment": "Requires 6 months of intense potty training, crate training",
+            "pros": "Verified pedigree, known lineage and health clearances, adorable puppy stage",
+            "cons": "Very expensive, high destruction risk (chewing furniture), requires constant supervision",
+            "imageUrl": "https://images.unsplash.com/photo-1552053831-71594a27632d?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q6",
+          "title": "Purchasing a Computer: Lightweight Ultrabook vs. Desktop Workstation",
+          "targetAudience": "Your college roommate Sam",
+          "prompt": "You and Sam are engineering students purchasing a primary computer for the upcoming academic year. Compare a high-performance portable ultrabook and a powerful desktop computer with dual monitors. Persuade Sam which option will serve you better.",
+          "optionA": {
+            "name": "NovaBook Pro 14\" Ultrabook",
+            "price": "$1,899 CAD",
+            "performance": "M-Series 12-Core Processor, 16GB Unified RAM, 1TB SSD",
+            "batteryPortability": "18-Hour Battery Life, weighs only 1.4 kg",
+            "pros": "Carry to lectures, library, coffee shops, silent and durable",
+            "cons": "Single 14-inch screen, limited hardware upgradability",
+            "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "Titan Custom Desktop Rig + Dual 27\" Monitors",
+            "price": "$1,950 CAD (Includes keyboard, mouse, dual displays)",
+            "performance": "Intel i7 Processor, 32GB RAM, RTX Graphics Card, 2TB SSD",
+            "batteryPortability": "Stationary desk setup (Plugged into wall)",
+            "pros": "Massive screen real estate, top tier 3D rendering and gaming, easily upgradeable",
+            "cons": "Zero portability, takes up substantial desk space, high power draw",
+            "imageUrl": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q7",
+          "title": "Fitness Membership: Premium Boutique Health Club vs. Budget 24/7 Gym",
+          "targetAudience": "Your workout partner Kevin",
+          "prompt": "You and your workout buddy Kevin are deciding which gym to join. Compare the Premium Wellness Club and the 24/7 Budget Gym. Choose one and persuade Kevin why your choice offers the best value for your health goals.",
+          "optionA": {
+            "name": "Apex Premier Athletic Club",
+            "price": "$125 / month (No contract, $50 signup fee)",
+            "facilities": "Olympic pool, sauna, steam room, towel service, high-end locker rooms",
+            "classes": "Unlimited yoga, Pilates, spin classes, and personal training consult",
+            "pros": "Luxury experience, highly motivating, clean and never overly crowded",
+            "cons": "Higher monthly expense, closes at 10 PM",
+            "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "IronFit 24/7 Community Gym",
+            "price": "$35 / month (1-year commitment)",
+            "facilities": "Standard free weights, squat racks, treadmills, basic showers",
+            "classes": "No group classes included ($15 extra per session)",
+            "pros": "Extremely affordable, open 24 hours including holidays, 5 minutes from home",
+            "cons": "Very crowded between 5-8 PM, barebones amenities, no pool or sauna",
+            "imageUrl": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q8",
+          "title": "Choosing Job Offers: High-Growth Tech Startup vs. Established Crown Corporation",
+          "targetAudience": "Your mentor Professor Evans",
+          "prompt": "You have received two compelling job offers upon graduation. Option A is a fast-paced role at an early-stage artificial intelligence startup; Option B is a permanent position at a well-established public utility crown corporation. Persuade your mentor why your chosen career path is right for you.",
+          "optionA": {
+            "name": "AI Spark Innovations (Tech Startup)",
+            "compensation": "$85,000 Base Salary + Stock Equity Options",
+            "culture": "Fast-paced, high responsibility, flexible hybrid work, steep learning curve",
+            "advancement": "Rapid promotion potential if company scales; wear many hats",
+            "pros": "Cutting-edge tech, huge financial upside with equity, high autonomy",
+            "cons": "Risk of company closure, occasionally long working hours",
+            "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "Provincial Power Authority (Established Public Sector)",
+            "compensation": "$78,000 Starting Salary + Defined Benefit Pension + Health Benefits",
+            "culture": "Structured 37.5-hour workweek, strict work-life balance, unionized",
+            "advancement": "Steady, predictable step-raises based on seniority",
+            "pros": "Unrivaled job security, gold-standard pension, zero overtime pressure",
+            "cons": "Bureaucratic decision-making, slower career promotions",
+            "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q9",
+          "title": "Choosing a Smartphone: Flagship Ultra Phone vs. Rugged Budget Phone",
+          "targetAudience": "Your sister Maya",
+          "prompt": "You and your sister Maya are picking a new smartphone for her upcoming college year. Option A is a premium flagship phone with a pro camera and high price tag; Option B is a durable, budget-friendly phone with long battery life. Compare both options, pick one, and persuade Maya why your choice is best for her.",
+          "optionA": {
+            "name": "Apex Pro Ultra 5G",
+            "price": "$1,450 CAD (or $60/mo contract)",
+            "cameraDisplay": "200MP Quad Camera, 120Hz OLED Display",
+            "battery": "4,500 mAh (All-day battery, 45W fast charge)",
+            "durability": "Glass front and back (Requires heavy protective case)",
+            "pros": "Cinema-grade photos and video for social media, lightning-fast gaming processor",
+            "cons": "Extremely expensive, high repair cost if glass cracks",
+            "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "TerraGuard Armor 5G",
+            "price": "$420 CAD (Full price outright)",
+            "cameraDisplay": "50MP Dual Camera, 90Hz Gorilla Glass Screen",
+            "battery": "6,000 mAh (2 full days on a single charge)",
+            "durability": "Military-grade shockproof bumper, water & dust-resistant",
+            "pros": "Costs a fraction of flagship price, virtually indestructible, massive 2-day battery",
+            "cons": "Slightly thicker body, camera struggles in ultra-low lighting",
+            "imageUrl": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q10",
+          "title": "Choosing a Wedding Venue: Country Barn vs. Waterfront Hotel",
+          "targetAudience": "Your fiancé/fiancée Jordan",
+          "prompt": "You and your partner Jordan are planning your wedding reception for next summer. You must choose between a rustic country barn in the countryside and a modern luxury waterfront hotel downtown. Choose one venue and persuade Jordan why it will create the perfect wedding celebration.",
+          "optionA": {
+            "name": "Whispering Pines Heritage Barn",
+            "price": "$6,500 Venue Rental (BYO catering and decor allowed)",
+            "capacity": "Seats up to 180 guests in open-timber hall",
+            "ambiance": "Rustic charm, fairy lights, outdoor lawn games, scenic meadow",
+            "pros": "Complete freedom over caterer and alcohol (huge cost savings), magical rustic atmosphere",
+            "cons": "Located 45 minutes outside the city, guests must arrange shuttle or designated drivers",
+            "imageUrl": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "Harbourview Grand Waterfront Hotel",
+            "price": "$12,000 Package (Includes 3-course plated meal, staffing, tables)",
+            "capacity": "Seats up to 200 guests in modern glass ballroom",
+            "ambiance": "Floor-to-ceiling harbor views, valet parking, hotel suites on-site",
+            "pros": "Zero stress coordination, out-of-town guests can take elevator straight to their rooms",
+            "cons": "Rigid in-house menu pricing, expensive mandatory bar minimums",
+            "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q11",
+          "title": "Kitchen Remodel: Modern Quartz & Minimalist vs. Traditional Granite & Hardwood",
+          "targetAudience": "Your spouse David",
+          "prompt": "You and your spouse David are redesigning your family kitchen. Option A features sleek white quartz countertops and minimalist handleless cabinetry; Option B features warm natural granite countertops with rustic oak hardwood cabinets. Choose one style and persuade David why it fits your home better.",
+          "optionA": {
+            "name": "Nordic Minimalist Quartz Kitchen",
+            "price": "$22,000 CAD (Engineered Quartz & Matte Flat Cabinets)",
+            "maintenance": "Non-porous quartz never requires sealing; stain and bacteria resistant",
+            "aesthetic": "Bright, airy, clean lines, integrated LED under-cabinet illumination",
+            "pros": "Makes kitchen look twice as large, easiest to wipe clean, highest modern resale value",
+            "cons": "Can feel slightly clinical or cold if not paired with warm decor",
+            "imageUrl": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "Heritage Granite & Warm Oak Kitchen",
+            "price": "$24,500 CAD (Natural Granite Slabs & Solid Stained Oak)",
+            "maintenance": "Granite requires annual sealing; wood cabinets require gentle polishing",
+            "aesthetic": "Warm, cozy, timeless, natural stone earth tones with brass hardware",
+            "pros": "Highly durable against heat (hot pots directly on stone), cozy welcoming feel",
+            "cons": "Granite can stain if wine or citrus sit, dark cabinetry can darken room",
+            "imageUrl": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q12",
+          "title": "Team Building Event: Outdoor Zipline & Camping vs. Escape Room & Cooking Class",
+          "targetAudience": "Your team leader Sarah",
+          "prompt": "Your corporate department has allocated a budget for an annual team-building retreat. Option A is an outdoor high-ropes adventure park and lakeside barbecue; Option B is an indoor downtown escape room challenge followed by a chef-led culinary cooking masterclass. Persuade Sarah which event will best unite the team.",
+          "optionA": {
+            "name": "Wilderness Treetop Trek & Lake BBQ",
+            "price": "$110 per employee (Includes safety gear, guide, and catered BBQ)",
+            "location": "Provincial park 40 minutes from office",
+            "activity": "Ziplines, suspension bridges, canoe races, team bonfire",
+            "pros": "Fresh outdoor air, encourages stepping out of comfort zones and genuine camaraderie",
+            "cons": "Weather dependent (rain risk), physical fitness demands may exclude some colleagues",
+            "imageUrl": "https://images.unsplash.com/photo-1533240332313-0db49b459ad6?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "Downtown Escape Challenge & Culinary Studio",
+            "price": "$125 per employee (Includes escape tickets and private chef lesson)",
+            "location": "Downtown core (Walking distance from office)",
+            "activity": "Collaborative puzzle solving, teamwork, followed by preparing a gourmet Italian meal together",
+            "pros": "100% accessible to all physical abilities, weatherproof, fosters intellectual problem-solving",
+            "cons": "Confined indoors, shorter overall duration",
+            "imageUrl": "https://images.unsplash.com/photo-1556911073-38141963c9e0?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q13",
+          "title": "Commuting Choice: Electric Commuter Bike vs. Monthly Public Transit Pass",
+          "targetAudience": "Your colleague Ryan",
+          "prompt": "You and your colleague Ryan work in the downtown core 7 kilometers from your homes. You are deciding whether to invest in an electric commuter bicycle or purchase an annual public transit subway/bus pass. Choose one and persuade Ryan why your commuting solution is superior.",
+          "optionA": {
+            "name": "VoltCity Step-Through E-Bike",
+            "price": "$1,800 CAD Upfront (Zero monthly ongoing ticket fees)",
+            "speed": "25-32 km/h pedal assist (Door-to-door commute: 18 minutes)",
+            "convenience": "Dedicated bike paths, no waiting for late buses, includes cargo panniers",
+            "pros": "Direct point-to-point travel with no schedule delays, healthy exercise, free parking at office",
+            "cons": "Challenging during deep winter snowstorms, requires secure bike lock",
+            "imageUrl": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "Metro Transit Unlimited Annual Pass",
+            "price": "$156 / month ($1,872 CAD per year)",
+            "speed": "Subway & connecting bus (Door-to-door commute: 30 minutes)",
+            "convenience": "Climate controlled in subways, read books or check email during ride",
+            "pros": "Year-round comfort regardless of subzero winter weather, zero maintenance or theft worry",
+            "cons": "Subject to signal delays, crowded rush-hour cars, recurring annual expense",
+            "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q14",
+          "title": "Choosing a Home Coffee Maker: Italian Espresso Machine vs. Pod Capsule Machine",
+          "targetAudience": "Your roommate Leo",
+          "prompt": "You and your roommate Leo want to upgrade your shared apartment's morning coffee setup. Option A is a semi-automatic Italian espresso machine with built-in conical grinder; Option B is a single-serve pod capsule machine. Choose one option and persuade Leo why it is the better investment for your kitchen.",
+          "optionA": {
+            "name": "Barista Touch Espresso Machine",
+            "price": "$750 CAD Upfront (Beans cost ~$18/month for freshly roasted bags)",
+            "quality": "Cafe-quality espresso, silky microfoam milk for lattes and cappuccinos",
+            "ecoImpact": "Compostable organic coffee grounds, zero plastic or aluminum pod waste",
+            "pros": "Superior gourmet taste, significantly cheaper per cup over 2 years, eco-friendly",
+            "cons": "Requires 3 minutes of prep and cleanup per cup, takes up more counter space",
+            "imageUrl": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "ExpressPod One-Touch Brewer",
+            "price": "$140 CAD Upfront (Pods cost ~$50/month for daily usage)",
+            "quality": "Consistent standard drip/crema coffee in 30 seconds",
+            "ecoImpact": "Produces single-use aluminum capsules requiring special recycling",
+            "pros": "Push-button instant coffee with zero cleanup, compact footprint on counter",
+            "cons": "Pods are expensive over time ($600/year), coffee flavor is standardized and less fresh",
+            "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q15",
+          "title": "Weekend Getaway: Camping in Banff National Park vs. Luxury Whistler Spa Hotel",
+          "targetAudience": "Your partner Morgan",
+          "prompt": "You and your partner Morgan have a 3-day long weekend coming up. Option A is wilderness tent camping and hiking in Banff National Park; Option B is staying at a four-star luxury wellness spa resort in Whistler. Compare both options and persuade Morgan why your choice will provide the better break.",
+          "optionA": {
+            "name": "Banff Wilderness Camping & Alpine Trails",
+            "price": "$280 Total (Park permits, campsite fee, and groceries for campfire)",
+            "activities": "Hiking turquoise alpine lakes, wildlife viewing, starry campfires, canoeing",
+            "vibe": "Off-grid digital detox, rugged adventure, immersion in pristine Canadian nature",
+            "pros": "Unrivaled natural beauty, true stress relief away from screens, very budget-friendly",
+            "cons": "Sleeping on sleeping pads, shared camp washrooms, weather can get chilly at night",
+            "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "Whistler Alpine Spa & Wellness Resort",
+            "price": "$1,350 Total (2 nights in boutique suite, thermal pool pass, gourmet meals)",
+            "activities": "Heated hydrotherapy pools, deep-tissue massage, fine dining, village shopping",
+            "vibe": "Pampering, luxury, plush king bed, zero physical exertion",
+            "pros": "Total physical relaxation, weather-proof comfort, luxurious amenities",
+            "cons": "Much more expensive, feels like a commercial resort rather than pure nature",
+            "imageUrl": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&auto=format&fit=crop&q=80"
+          }
+        },
+        {
+          "id": "T5_Q16",
+          "title": "Child's Extracurricular: Competitive Ice Hockey vs. Violin & Music Lessons",
+          "targetAudience": "Your spouse Jennifer",
+          "prompt": "You and your spouse Jennifer are enrolling your 8-year-old child in their primary extracurricular activity for the school year. Option A is the local competitive minor hockey league; Option B is classical violin instruction with youth orchestra rehearsals. Choose one and persuade Jennifer which program will best support your child's development.",
+          "optionA": {
+            "name": "Community Minor Hockey League",
+            "price": "$1,800 CAD / season (Equipment, ice time, tournament travel fees)",
+            "commitment": "3-4 times per week (Early morning weekend practices)",
+            "skills": "Physical fitness, skating, teamwork, resilience, sportsmanship",
+            "pros": "Quintessential Canadian social experience, incredible aerobic health, builds lifelong team friendships",
+            "cons": "Very demanding 6 AM weekend schedule, expensive equipment that child outgrows yearly",
+            "imageUrl": "https://images.unsplash.com/photo-1580748141549-71748dbe0bdc?w=800&auto=format&fit=crop&q=80"
+          },
+          "optionB": {
+            "name": "Classical Violin & Youth Orchestra Academy",
+            "price": "$1,200 CAD / year (Instrument rental + weekly 45-min private lessons)",
+            "commitment": "Daily 20-min home practice + Saturday morning group rehearsal",
+            "skills": "Discipline, auditory memory, concentration, fine motor coordination",
+            "pros": "Proven cognitive brain development, flexible home practice schedule, lifelong musical appreciation",
+            "cons": "Can be frustrating in the early months, requires parent patience with daily practice",
+            "imageUrl": "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?w=800&auto=format&fit=crop&q=80"
+          }
+        }
+      ]
+    },
+    "6": {
+      "taskNumber": 6,
+      "title": "Dealing with a Difficult Situation",
+      "subtitle": "Choose one of two conflicting options to resolve an uncomfortable problem, then explain your position",
+      "formula": "Acknowledge → Explain → Propose a solution → Close",
+      "formulaSteps": [
+        {
+          "step": "Acknowledge",
+          "description": "Greet the person, acknowledge the sensitivity of the issue, and set a respectful tone.",
+          "starters": [
+            "Hi [Name], thanks for taking a moment to speak with me.",
+            "I wanted to talk to you directly about a matter that's been on my mind...",
+            "I understand this might come as a surprise, but I feel it's important to address..."
+          ]
+        },
+        {
+          "step": "Explain",
+          "description": "Explain clearly why you cannot accommodate the original expectation or why there is a conflict.",
+          "starters": [
+            "Unfortunately, due to unforeseen circumstances, I won't be able to...",
+            "The issue is that while I value our friendship/work, I find myself in a difficult position where...",
+            "To be completely candid, this arrangement is creating a significant issue because..."
+          ]
+        },
+        {
+          "step": "Propose a solution",
+          "description": "Offer a practical, constructive compromise or alternative solution that works for both sides.",
+          "starters": [
+            "What I propose instead is that we...",
+            "To make things right, I'd be more than happy to...",
+            "As an alternative, how about we look into..."
+          ]
+        },
+        {
+          "step": "Close",
+          "description": "Reiterate goodwill, thank them for their understanding, and confirm next steps.",
+          "starters": [
+            "I really appreciate your understanding on this.",
+            "Let me know what you think of this idea, and let's touch base tomorrow.",
+            "Thank you for hearing me out; I'm sure we can work this out together."
+          ]
+        }
+      ],
+      "prepTime": 60,
+      "speakTime": 60,
+      "questions": [
+        {
+          "id": "T6_Q1",
+          "title": "Neighbor's Late-Night Noise Dilemma",
+          "prompt": "Your upstairs neighbor has been hosting noisy social gatherings past 1:00 AM on weeknights, disturbing your sleep before work. You must choose ONE of the following options and speak directly to resolve the issue:\n\nOption A: Talk to your upstairs neighbor in person in a friendly but firm manner.\nOption B: Call your building manager/landlord to report the noise violations and request formal action.",
+          "choiceA": {
+            "title": "Option A: Speak Directly to Neighbor",
+            "target": "Your upstairs neighbor Jason",
+            "context": "Speak to Jason face-to-face. Explain how the late-night music affects your work schedule and propose reasonable quiet hours."
+          },
+          "choiceB": {
+            "title": "Option B: Contact Building Landlord",
+            "target": "Building Property Manager Ms. Higgins",
+            "context": "Call Ms. Higgins. Explain that the ongoing disturbance violates building bylaws and request an official notice be sent to the tenant."
+          }
+        },
+        {
+          "id": "T6_Q2",
+          "title": "Destination Wedding You Cannot Afford",
+          "prompt": "Your close college friend is getting married at an expensive overseas resort in Hawaii. Attending would cost over $3,000, which exceeds your financial budget. Choose ONE of the following people to speak with:\n\nOption A: Call your friend to explain why you cannot attend in person and offer a heartfelt alternative.\nOption B: Talk to your partner about cutting your savings to make the trip work.",
+          "choiceA": {
+            "title": "Option A: Speak to your Bride/Groom Friend",
+            "target": "Your friend Rachel",
+            "context": "Express your genuine happiness for their wedding, explain your strict financial limitations with honesty, and offer to host a celebratory dinner when they return."
+          },
+          "choiceB": {
+            "title": "Option B: Discuss with your Partner",
+            "target": "Your partner Sam",
+            "context": "Explain the emotional importance of being at the wedding, discuss what vacation budget you could sacrifice, and agree on whether it is feasible."
+          }
+        },
+        {
+          "id": "T6_Q3",
+          "title": "Colleague Taking Credit for Your Presentation Idea",
+          "prompt": "In a team meeting yesterday, a colleague presented your proposal for a major client project without acknowledging your contribution, and your supervisor praised them. Choose ONE option:\n\nOption A: Speak privately with the colleague to address the situation directly.\nOption B: Speak with your department manager to clarify the origin of the work.",
+          "choiceA": {
+            "title": "Option A: Speak with Colleague",
+            "target": "Your colleague Derek",
+            "context": "Ask Derek for a private chat. Address why he presented the project without crediting you, and ask him to send a follow-up email clarifying joint authorship."
+          },
+          "choiceB": {
+            "title": "Option B: Speak with Manager",
+            "target": "Your manager Mrs. Chen",
+            "context": "Meet Mrs. Chen to explain that you drafted the core framework and share your research documentation while maintaining professionalism."
+          }
+        },
+        {
+          "id": "T6_Q4",
+          "title": "Child's Difficult School Grade Conflict",
+          "prompt": "Your 12-year-old child received a failing grade on a history essay because the teacher claimed it was submitted late, but your child has timestamped email proof of on-time submission. Choose ONE person to contact:\n\nOption A: Speak with the history teacher to request a grade review.\nOption B: Meet with the school principal to file an inquiry.",
+          "choiceA": {
+            "title": "Option A: Speak with Teacher",
+            "target": "The teacher Mr. Henderson",
+            "context": "Politely explain the discrepancy, present the electronic timestamp evidence, and ask him to re-evaluate the essay without late penalty."
+          },
+          "choiceB": {
+            "title": "Option B: Speak with School Principal",
+            "target": "Principal Dr. Walsh",
+            "context": "State that the teacher refused to review digital proof, explain your concern for fair treatment, and request administrative mediation."
+          }
+        },
+        {
+          "id": "T6_Q5",
+          "title": "Customer Demanding a Refund Against Policy",
+          "prompt": "You are a customer service supervisor at an electronics retailer. A customer is angrily demanding a cash refund for a tablet purchased 60 days ago (the store return policy is 30 days). The box is opened and damaged. Choose ONE option:\n\nOption A: Speak with the angry customer and offer store credit or warranty exchange.\nOption B: Request special approval from your store general manager.",
+          "choiceA": {
+            "title": "Option A: Address the Customer",
+            "target": "The customer Mr. Davis",
+            "context": "Acknowledge his frustration calmly, explain the 30-day cash return limit, and offer a compromise of store credit or free repair under warranty."
+          },
+          "choiceB": {
+            "title": "Option B: Speak to Store Manager",
+            "target": "Store General Manager Karen",
+            "context": "Explain the customer's loyalty history and volatile temperament, and ask if an exception can be authorized to protect the store's reputation."
+          }
+        },
+        {
+          "id": "T6_Q6",
+          "title": "Coworker Frequently Asking You to Cover Shifts",
+          "prompt": "A coworker has repeatedly asked you to cover their evening and weekend shifts citing personal emergencies, but other staff mention they are taking leisure trips. You are feeling exhausted. Choose ONE option:\n\nOption A: Speak directly to the coworker and decline future coverage requests.\nOption B: Speak with your shift scheduler to restrict swap approvals.",
+          "choiceA": {
+            "title": "Option A: Confront Coworker Directly",
+            "target": "Your coworker Brandon",
+            "context": "Politely but firmly tell Brandon that you can no longer take on extra shifts due to your own personal commitments and burnout."
+          },
+          "choiceB": {
+            "title": "Option B: Speak to Shift Supervisor",
+            "target": "Supervisor Linda",
+            "context": "Explain the pattern of unbalanced shift transfers and request that shift swaps require formal manager approval going forward."
+          }
+        },
+        {
+          "id": "T6_Q7",
+          "title": "Roommate Neglecting Shared Apartment Chores",
+          "prompt": "Your roommate rarely cleans the kitchen, leaves dirty dishes in the sink for days, and ignores garbage disposal duties. Choose ONE option:\n\nOption A: Have an open, honest discussion with your roommate and create a structured chore chart.\nOption B: Inform your landlord that you want to terminate the shared lease early.",
+          "choiceA": {
+            "title": "Option A: Speak with Roommate",
+            "target": "Your roommate Lucas",
+            "context": "Calmly bring up hygiene concerns in the shared living space, propose a rotating weekly chore schedule, and set clear expectations."
+          },
+          "choiceB": {
+            "title": "Option B: Speak with Landlord",
+            "target": "The landlord Mr. Alvarez",
+            "context": "Explain the untenable living conditions despite repeated verbal reminders, and inquire about subletting or breaking the joint tenancy."
+          }
+        },
+        {
+          "id": "T6_Q8",
+          "title": "Damaged Antique Delivered by Local Moving Company",
+          "prompt": "During your recent residential move, movers dropped and cracked a valuable family heirloom wooden dining table. The driver claims the damage was pre-existing. Choose ONE option:\n\nOption A: Call the customer claims manager of the moving company to demand compensation.\nOption B: Contact the driver directly to ask for an honest statement for insurance.",
+          "choiceA": {
+            "title": "Option A: Call Claims Department",
+            "target": "Claims Representative Amanda",
+            "context": "State that pre-move photos clearly show the table undamaged, explain the breach of care, and request reimbursement under transit insurance."
+          },
+          "choiceB": {
+            "title": "Option B: Call the Lead Mover",
+            "target": "Lead Mover Tom",
+            "context": "Remind him of the moment the strap slipped on the truck ramp and urge him to confirm what actually happened so insurance covers the repair."
+          }
+        },
+        {
+          "id": "T6_Q9",
+          "title": "Returning an Unwanted Expensive Gift",
+          "prompt": "For your milestone birthday, a close friend generously bought you an expensive winter designer jacket that is two sizes too small and completely contrary to your taste. You cannot wear it. Choose ONE option:\n\nOption A: Speak directly with your friend in a warm, gentle manner and ask for the gift receipt to exchange sizes.\nOption B: Visit the boutique manager without a receipt and try to negotiate store credit.",
+          "choiceA": {
+            "title": "Option A: Speak with Your Friend",
+            "target": "Your friend Brenda",
+            "context": "Express deep gratitude for her immense generosity, explain the sizing issue honestly, and ask if she has the gift receipt so you can exchange it for something that fits."
+          },
+          "choiceB": {
+            "title": "Option B: Speak with Store Manager",
+            "target": "Store Manager Mr. Sterling",
+            "context": "Politely explain the gift situation, show tags still attached, and request an even exchange or store credit without troubling your friend."
+          }
+        },
+        {
+          "id": "T6_Q10",
+          "title": "Sibling Asking to Borrow a Large Sum of Money",
+          "prompt": "Your older brother is asking to borrow $5,000 to cover credit card bills. He borrowed $1,000 from you last year and never repaid it, and your own savings are earmarked for your emergency fund. Choose ONE option:\n\nOption A: Speak with your brother to decline the cash loan and offer non-financial budgeting help.\nOption B: Discuss the family financial dilemma with your parents.",
+          "choiceA": {
+            "title": "Option A: Speak Directly with Brother",
+            "target": "Your brother Julian",
+            "context": "Lovingly but firmly decline the monetary loan, bring up your personal budget limitations, and offer to help him create a debt repayment plan or connect with a credit counsellor."
+          },
+          "choiceB": {
+            "title": "Option B: Speak with Parents",
+            "target": "Your parents",
+            "context": "Share your concern about Julian's recurring financial difficulties, ask if they can intervene as a family, and agree on clear mutual boundaries."
+          }
+        },
+        {
+          "id": "T6_Q11",
+          "title": "Subtenant Damaging Apartment Flooring",
+          "prompt": "While you were away for a month, your short-term subtenant hosted an unauthorized late-night party, resulting in noticeable water damage to the hardwood living room floor. Choose ONE option:\n\nOption A: Confront the subtenant directly to inspect the damage and claim repair costs from their deposit.\nOption B: Notify your building landlord to inspect the floor and request an official damage appraisal.",
+          "choiceA": {
+            "title": "Option A: Confront the Subtenant",
+            "target": "The subtenant Eric",
+            "context": "Point out the clear breach of the sub-lease agreement regarding parties, show the floor stains, and explain that his security deposit will be used for professional refinishing."
+          },
+          "choiceB": {
+            "title": "Option B: Inform Building Landlord",
+            "target": "The landlord Mr. Henderson",
+            "context": "Explain the situation transparently before moving out, ask for their preferred contractor quote, and coordinate remediation."
+          }
+        },
+        {
+          "id": "T6_Q12",
+          "title": "Conflict Between Colleague's Farewell Party and Family Event",
+          "prompt": "Your mentor and favorite coworker is leaving the company after 10 years, and their surprise farewell dinner is scheduled for this Friday night. However, this coincides with your parents' 30th wedding anniversary dinner which was planned months ago. Choose ONE option:\n\nOption A: Speak with your departing colleague to apologize and plan an intimate private send-off lunch.\nOption B: Talk to your family about arriving late or shifting your attendance.",
+          "choiceA": {
+            "title": "Option A: Speak with Colleague",
+            "target": "Your mentor coworker David",
+            "context": "Explain the unavoidable family milestone with heartfelt regret, express immense gratitude for his mentorship, and take him out for a special celebration lunch on Thursday."
+          },
+          "choiceB": {
+            "title": "Option B: Speak with Parents",
+            "target": "Your parents",
+            "context": "Explain David's pivotal impact on your career, ask if you can join the family dinner for dessert after attending the first hour of the farewell reception."
+          }
+        },
+        {
+          "id": "T6_Q13",
+          "title": "Pet Allergies with a New Partner",
+          "prompt": "You have lived with your beloved rescue cat for six years. Your partner of one year wants to move in together, but has severe diagnosed asthma and cat allergies. Choose ONE option:\n\nOption A: Talk to your partner about implementing strict environmental controls (HEPA purifiers, cat-free bedroom, immunotherapy).\nOption B: Speak with your sister about adopting the cat into her pet-friendly home.",
+          "choiceA": {
+            "title": "Option A: Discuss Solutions with Partner",
+            "target": "Your partner Chris",
+            "context": "Acknowledge their legitimate health concerns, propose consulting an allergist together, and test strict air filtration and grooming before considering drastic measures."
+          },
+          "choiceB": {
+            "title": "Option B: Speak with Sister",
+            "target": "Your sister Laura",
+            "context": "Explain the painful dilemma, ask if she would welcome the cat into her home where you can visit frequently, and offer to pay for all food and veterinary expenses."
+          }
+        },
+        {
+          "id": "T6_Q14",
+          "title": "Coworker Neglecting Shared Breakroom Cleanliness",
+          "prompt": "A coworker repeatedly leaves open containers of strong-smelling food in the shared breakroom refrigerator until they mold, and leaves dirty dishes in the sink. The breakroom smells foul and coworkers are complaining. Choose ONE option:\n\nOption A: Speak privately and tactfully with the coworker.\nOption B: Speak with office operations to establish a mandatory Friday clean-out policy.",
+          "choiceA": {
+            "title": "Option A: Speak Privately with Coworker",
+            "target": "Your coworker Gary",
+            "context": "Bring up the issue in a respectful, friendly manner without accusation, explain the hygiene impact on the team, and encourage him to clear his containers."
+          },
+          "choiceB": {
+            "title": "Option B: Speak with Office Manager",
+            "target": "Office Manager Sandra",
+            "context": "Suggest posting clear breakroom etiquette guidelines and instituting a routine Friday afternoon disposal policy for unmarked containers."
+          }
+        },
+        {
+          "id": "T6_Q15",
+          "title": "Contractor Seriously Behind Schedule on Home Renovation",
+          "prompt": "Your contractor promised your sole bathroom renovation would take two weeks. It has now been five weeks, the toilet is still uninstalled, and the workers only show up once or twice a week. Choose ONE option:\n\nOption A: Have an urgent face-to-face meeting with the general contractor to establish strict daily completion milestones.\nOption B: Contact a local construction lawyer / licensing board to review contract termination penalties.",
+          "choiceA": {
+            "title": "Option A: Meet with Contractor",
+            "target": "General Contractor Rick",
+            "context": "Calmly but firmly address the unlivable delay, demand a written day-by-day punch list, and make final payment contingent on completion this week."
+          },
+          "choiceB": {
+            "title": "Option B: Consult Legal / Licensing Authority",
+            "target": "Consumer Protection Licensing Officer",
+            "context": "Report the chronic breach of the signed timeline, inquire about options to withhold funds, and hire a replacement plumber to finish the job."
+          }
+        },
+        {
+          "id": "T6_Q16",
+          "title": "Unfair College Group Project Participation",
+          "prompt": "In a 4-person university business capstone project worth 40% of your grade, one teammate has missed all group meetings, ignored group chats, and submitted incomplete, plagiarized paragraphs the night before submission. Choose ONE option:\n\nOption A: Confront the teammate directly and give them an ultimatum to rewrite their section in 12 hours.\nOption B: Schedule an emergency meeting with your university course professor to show document edit history.",
+          "choiceA": {
+            "title": "Option A: Confront Teammate",
+            "target": "Your teammate Kevin",
+            "context": "Point out the unacceptable quality and lack of participation, explain the academic integrity risk of plagiarism, and state that his name will be removed if he doesn't submit authentic work."
+          },
+          "choiceB": {
+            "title": "Option B: Meet Course Professor",
+            "target": "Professor Martinez",
+            "context": "Present the Google Docs version control history and chat logs, explain that the team carried the workload, and request peer evaluation grading."
+          }
+        }
+      ]
+    },
+    "7": {
+      "taskNumber": 7,
+      "title": "Expressing Opinions",
+      "subtitle": "State your viewpoint on a debatable topic and support it with two strong arguments",
+      "formula": "Opinion → Reason 1 → Reason 2 → Conclusion",
+      "formulaSteps": [
+        {
+          "step": "Opinion",
+          "description": "Clearly state your stance on the issue (agree, disagree, or take a side) without ambiguity.",
+          "starters": [
+            "In my opinion, I strongly believe that...",
+            "When it comes to whether..., I firmly advocate that...",
+            "From my perspective, it is evident that..."
+          ]
+        },
+        {
+          "step": "Reason 1 & explanation",
+          "description": "Present your primary argument backed by concrete logic, examples, or evidence.",
+          "starters": [
+            "First and foremost, the primary reason is that...",
+            "To begin with, we must recognize that...",
+            "One compelling argument in favor of this is..."
+          ]
+        },
+        {
+          "step": "Reason 2 & explanation",
+          "description": "Present a second distinct argument addressing social, economic, or practical impact.",
+          "starters": [
+            "In addition to that, another critical factor to consider is...",
+            "Secondly, from an economic and practical standpoint...",
+            "Furthermore, this policy would significantly improve..."
+          ]
+        },
+        {
+          "step": "Conclusion",
+          "description": "Restate your position in fresh words and provide a memorable closing takeaway.",
+          "starters": [
+            "To wrap up, considering both [Reason 1] and [Reason 2]...",
+            "For these compelling reasons, I maintain that...",
+            "In conclusion, adopting this approach is undoubtedly the most sensible path forward."
+          ]
+        }
+      ],
+      "prepTime": 30,
+      "speakTime": 90,
+      "questions": [
+        {
+          "id": "T7_Q1",
+          "title": "Banning Private Cars in Downtown City Centers",
+          "prompt": "Some city planners believe private gasoline and diesel vehicles should be banned from downtown urban centers to combat air pollution and traffic congestion, while critics argue this hurts small businesses and inconveniences suburban commuters. What is your opinion on banning cars from downtown centers?",
+          "keyPoints": [
+            "Environmental & public health benefits: cleaner air, lower carbon footprint, safer pedestrian zones",
+            "Economic & transit requirements: must be paired with affordable, reliable public transit systems and commercial delivery windows",
+            "Impact on urban vibrancy: successful pedestrian streets in Europe boost foot traffic to shops and cafes"
+          ]
+        },
+        {
+          "id": "T7_Q2",
+          "title": "Free Tuition for All University Students",
+          "prompt": "Should post-secondary university education be fully funded by government taxes and provided free to all students, or should students continue paying tuition fees? Give your opinion and support it with two developed reasons.",
+          "keyPoints": [
+            "Equal opportunity & socioeconomic mobility: removes crippling student debt and allows students from all backgrounds to thrive",
+            "Economic productivity: an educated workforce attracts high-tech industries and generates higher long-term tax revenues",
+            "Fiscal counterarguments: costs must be balanced by maintaining high academic standards and preventing tax spikes"
+          ]
+        },
+        {
+          "id": "T7_Q3",
+          "title": "Legal Right to Disconnect After Working Hours",
+          "prompt": "Many jurisdictions are introducing 'Right to Disconnect' laws that prohibit employers from contacting employees via email or phone outside regular business hours. Do you agree or disagree with legally enforcing this policy? State your opinion with reasons.",
+          "keyPoints": [
+            "Mental health & burnout prevention: constant availability blurs boundaries and leads to chronic stress and exhaustion",
+            "Quality family and leisure time: protected personal hours restore focus and actually improve daytime workplace productivity",
+            "Practical flexibility: emergency exceptions can be outlined while maintaining general respect for downtime"
+          ]
+        },
+        {
+          "id": "T7_Q4",
+          "title": "Eliminating Traditional Letter Grades in K-12 Schools",
+          "prompt": "Some educational experts argue that traditional letter grades (A, B, C, D, F) should be replaced with competency-based assessments and qualitative feedback, arguing that grades create unnecessary anxiety. Do you agree or disagree with replacing letter grades?",
+          "keyPoints": [
+            "Focus on real mastery vs. memorization: qualitative feedback helps students understand how to improve rather than chasing numbers",
+            "Reduces toxic comparison and anxiety: encourages genuine curiosity and resilience in children",
+            "Need for standardization: clear rubrics are still necessary for university admissions and tracking progress"
+          ]
+        },
+        {
+          "id": "T7_Q5",
+          "title": "Remote Work vs. Mandatory Return to Office",
+          "prompt": "Many major corporations are mandating that employees return to the office full-time, arguing it fosters spontaneous collaboration and corporate culture. Do you think companies should mandate in-office work or allow permanent flexible remote work?",
+          "keyPoints": [
+            "Productivity & work-life balance: eliminating hours in traffic gives workers more energy and flexibility",
+            "Access to diverse global talent: companies can hire the best individuals regardless of geographical location",
+            "Intentional collaboration: hybrid team meetups can preserve company culture without forcing daily commutes"
+          ]
+        },
+        {
+          "id": "T7_Q6",
+          "title": "Imposing Special Taxes on Sugary and Fast Foods",
+          "prompt": "Should governments place a special health tax on sugary drinks, candy, and fast food to combat obesity and fund public healthcare, or is this an unfair infringement on consumer freedom? State your opinion.",
+          "keyPoints": [
+            "Reduction in chronic disease: proven to lower consumption of harmful ultra-processed foods (similar to tobacco taxes)",
+            "Funding public healthcare: tax revenues can subsidize fresh produce and community athletic facilities",
+            "Protection of children: discourages aggressive marketing of unhealthy foods to youth"
+          ]
+        },
+        {
+          "id": "T7_Q7",
+          "title": "Free Fare Public Transit for All Citizens",
+          "prompt": "Should public transit (buses, subways, light rail) be completely free of charge for all passengers and funded entirely through tax dollars? State your opinion and explain your reasoning.",
+          "keyPoints": [
+            "Massive traffic reduction: motivates drivers to leave cars at home, reducing gridlock and greenhouse gases",
+            "Social equity: provides immediate financial relief to low-income workers, students, and seniors",
+            "Operational efficiency: eliminates costly fare gates, card readers, and enforcement personnel"
+          ]
+        },
+        {
+          "id": "T7_Q8",
+          "title": "Use of Generative AI Tools in Academic Testing",
+          "prompt": "With the rise of artificial intelligence writing and coding assistants, some universities are banning AI tools entirely, while others encourage students to use them ethically. Do you believe AI tools should be banned or integrated into education?",
+          "keyPoints": [
+            "Preparation for the modern workforce: future careers require proficiency in collaborating with AI technologies",
+            "Transformation of assessment methods: tests can evaluate critical thinking, oral defense, and practical problem-solving",
+            "Equity in learning: AI tutors can provide personalized, 24/7 educational guidance to students needing extra help"
+          ]
+        },
+        {
+          "id": "T7_Q9",
+          "title": "A Mandatory 4-Day Work Week (32 Hours)",
+          "prompt": "Several countries and forward-thinking corporations have tested a mandatory 4-day (32-hour) workweek with no reduction in pay, reporting equal or higher productivity and happier employees. Critics argue this harms customer service and raises costs for small businesses. What is your opinion on adopting a 4-day workweek?",
+          "keyPoints": [
+            "Productivity & mental health: reduced burnout leads to higher focus during working hours and fewer sick days",
+            "Environmental & family benefits: fewer weekly commutes reduce traffic emissions, while parents save on childcare costs",
+            "Operational flexibility: businesses can stagger shifts across Monday-Friday to maintain customer availability"
+          ]
+        },
+        {
+          "id": "T7_Q10",
+          "title": "Imposing a Special Robot and Automation Tax",
+          "prompt": "As artificial intelligence and automated robotics replace human workers in manufacturing, transport, and customer service, some economists advocate taxing companies that deploy robots to fund retraining programs for displaced workers. Do you support or oppose a tax on automation?",
+          "keyPoints": [
+            "Protection of the social safety net: compensates for lost income tax revenue and funds universal basic income or retraining",
+            "Technological innovation counterargument: excessive taxation might stifle technological progress and drive companies to other countries",
+            "Balanced transition: targeted subsidies for human-AI collaboration rather than punitive barriers against efficiency"
+          ]
+        },
+        {
+          "id": "T7_Q11",
+          "title": "Mandatory Financial Literacy in High Schools",
+          "prompt": "Many high school graduates understand complex trigonometry or historic dates but have no knowledge of filing income taxes, managing credit card interest, or applying for a mortgage. Should practical personal financial literacy be a compulsory requirement for high school graduation?",
+          "keyPoints": [
+            "Prevention of youth debt traps: understanding compound interest and credit scores prevents crippling student and consumer debt",
+            "Socioeconomic equity: levels the playing field for young people whose parents cannot teach financial planning at home",
+            "Lifelong economic empowerment: basic investing and budgeting skills foster entrepreneurial ambition and financial independence"
+          ]
+        },
+        {
+          "id": "T7_Q12",
+          "title": "Complete Ban on Single-Use Plastics",
+          "prompt": "To combat microplastic pollution in oceans and landfills, several governments have banned single-use plastic bags, straws, and food containers. Critics claim this causes inconvenience and forces businesses to use expensive paper alternatives. In your opinion, should single-use plastics be banned completely?",
+          "keyPoints": [
+            "Ecological urgency: non-biodegradable plastics persist for centuries, harming marine wildlife and entering human food chains",
+            "Catalyst for circular packaging innovation: encourages reusable containers, biodegradable seaweed packaging, and durable tote bags",
+            "Public health advantages: reduces chemical leaching from heated plastic food containers"
+          ]
+        },
+        {
+          "id": "T7_Q13",
+          "title": "Government Regulation of Social Media for Youths",
+          "prompt": "With rising rates of teenage anxiety, cyberbullying, and sleep deprivation linked to smartphone use, some lawmakers propose banning social media algorithms from recommending content to users under 18 or setting mandatory screen-time limits. Do you agree or disagree with regulating social media for minors?",
+          "keyPoints": [
+            "Child psychological safety: predatory algorithms exploit dopamine feedback loops and exacerbate body image and anxiety issues",
+            "Parental vs. state responsibility: parents need enforceable digital tools and platform transparency to guide healthy habits",
+            "Educational and creative benefits: platforms must balance child safety without cutting young people off from creative communities"
+          ]
+        },
+        {
+          "id": "T7_Q14",
+          "title": "Increasing Public Funding for Municipal Libraries",
+          "prompt": "In the digital age where books are easily downloaded on tablets, some people argue that public tax funding for libraries should be reduced, while advocates argue modern libraries provide essential community spaces, free Wi-Fi, and social support. What is your opinion on funding public libraries?",
+          "keyPoints": [
+            "Crucial community hubs: libraries offer free internet, warm study spaces, newcomer ESL classes, and children's literacy programs",
+            "Bridging the digital divide: provides computers, 3D printers, and digital tools to low-income residents who lack home access",
+            "Democratization of knowledge: preserves independent research archives, local history, and reliable information beyond paywalls"
+          ]
+        },
+        {
+          "id": "T7_Q15",
+          "title": "Phasing Out Traditional Zoos and Marine Parks",
+          "prompt": "Animal welfare organizations argue that keeping wild animals (such as lions, elephants, and killer whales) in cages and artificial tanks for human entertainment is unethical and should be phased out in favor of wildlife sanctuaries. What is your opinion on traditional zoos?",
+          "keyPoints": [
+            "Animal rights & psychological well-being: wild species experience chronic stress, confinement depression, and shortened lifespans in captivity",
+            "Modern conservation alternatives: virtual reality exhibits, wildlife rescue sanctuaries, and habitat preservation in the wild are more ethical",
+            "Educational evolution: public empathy is better cultivated through immersive nature documentaries than watching pacing caged animals"
+          ]
+        },
+        {
+          "id": "T7_Q16",
+          "title": "Abolishing Tipping in Restaurants in Favor of Living Wages",
+          "prompt": "In North America, restaurant diners are typically expected to add an 18-20% tip to their bill to compensate servers who earn low base wages. Some propose eliminating tipping entirely and raising menu prices to guarantee all staff fair, predictable living wages with benefits. What is your opinion?",
+          "keyPoints": [
+            "Income stability & dignity: eliminates wage volatility caused by slow shifts, weather, or customer bias, ensuring predictable paychecks",
+            "Reduces wage disparities: bridges the unfair compensation gap between front-of-house servers and back-of-house kitchen cooks",
+            "Transparent pricing: customers know the exact price of their meal without confusing social guilt or mental math at checkout"
+          ]
+        }
+      ]
+    },
+    "8": {
+      "taskNumber": 8,
+      "title": "Describing an Unusual Situation",
+      "subtitle": "Describe an extraordinary or bizarre object/scene to someone who cannot see it",
+      "formula": "Identify the situation → Describe details → Explain significance",
+      "formulaSteps": [
+        {
+          "step": "Identify the situation",
+          "description": "Call the person, state where you are, and immediately declare how unusual or bizarre the sight is.",
+          "starters": [
+            "Hey [Name], you will honestly not believe what I'm looking at right now!",
+            "Hi [Name], I'm standing right here on... and I just came across the most bizarre sight!",
+            "Listen, you have to hear about this extraordinary thing I just saw..."
+          ]
+        },
+        {
+          "step": "Describe details",
+          "description": "Paint a vivid picture: size, shape, colors, materials, strange features, and positioning.",
+          "starters": [
+            "To describe it to you, it looks like a...",
+            "What makes it so unusual is that the entire thing is...",
+            "From the top down, you can see that...",
+            "It's roughly the size of a... and painted in vibrant..."
+          ]
+        },
+        {
+          "step": "Explain significance",
+          "description": "Explain why it caught your attention, how onlookers are reacting, and invite them to see it.",
+          "starters": [
+            "Everyone passing by is stopping to take pictures and laughing!",
+            "I think it's meant to be an artistic installation or publicity stunt.",
+            "You really have to come down here and see this for yourself before they take it away!"
+          ]
+        }
+      ],
+      "prepTime": 30,
+      "speakTime": 60,
+      "questions": [
+        {
+          "id": "T8_Q1",
+          "title": "An Upside-Down House Attraction",
+          "prompt": "You are on vacation and stumble upon an extraordinary tourist attraction: a fully furnished, full-sized house built completely upside down, with its roof planted on the grass and its foundation sticking up into the sky. Call your friend to describe this bizarre house in detail so they can picture it.",
+          "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Full sized suburban two-story house built upside down with roof on the lawn and car parked inverted underneath",
+          "features": [
+            "Two-story residential house resting on its pointed roof peaks",
+            "A yellow car mounted upside-down in the carport driveway",
+            "Front door is located near the top of the structure with stairs leading up in reverse",
+            "Window flower boxes hanging upside down with plants growing upward toward the ground"
+          ]
+        },
+        {
+          "id": "T8_Q2",
+          "title": "An Amphibious Pedal-Powered Boat-Car",
+          "prompt": "You are walking along a lakefront harbor and see a peculiar vehicle: a brightly painted vintage Volkswagen Beetle that has been converted into a floating paddle boat cruising on the water. Call your brother to describe this strange creation.",
+          "imageUrl": "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Vintage vehicle chassis converted into a buoyant watercraft floating on a blue lake with paddle wheels attached",
+          "features": [
+            "Bright turquoise vintage car body mounted on two buoyant yellow pontoons",
+            "Two giant red paddle wheels attached to the rear where wheels would normally be",
+            "The driver is steering with a nautical ship's wooden wheel instead of a steering wheel",
+            "A mini solar panel mounted on the roof powering a small electric propeller"
+          ]
+        },
+        {
+          "id": "T8_Q3",
+          "title": "A Giant Quirky Sculpture of an Oversized Teapot",
+          "prompt": "While traveling through a rural town, you discover a two-story building shaped exactly like a massive, steaming porcelain floral teapot that serves as a working café. Call your coworker to describe this eccentric architectural structure.",
+          "imageUrl": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Large whimsical architecture building in the shape of a giant ceramic teapot with steam pipe chimney and curved handle",
+          "features": [
+            "Two-story round building crafted and painted like an English vintage floral teapot",
+            "The spout serves as a chimney with real theatrical steam puffing out into the sky",
+            "The massive curved handle forms an arched outdoor spiral staircase for customers",
+            "Circular windows act as polka dots along the cream-and-pink painted ceramic exterior"
+          ]
+        },
+        {
+          "id": "T8_Q4",
+          "title": "A Vehicle Completely Covered in Living Grass",
+          "prompt": "You are walking in an urban shopping plaza and notice a car parked in front of a department store that is completely blanketed in living green turf, grass, and blooming wildflowers. Call your sister to describe what this whimsical eco-car looks like.",
+          "imageUrl": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Compact car whose entire exterior chassis, hood, and roof are covered in lush green sod grass and colorful daisies",
+          "features": [
+            "Entire metal exterior of the sedan covered in thick green lawn sod",
+            "Colorful daisies, marigolds, and small succulents sprouting out of the side mirrors and hood",
+            "Only the windshield, headlights, and license plate are left uncovered",
+            "A small garden gnome ornament mounted as a mascot on the front grille"
+          ]
+        },
+        {
+          "id": "T8_Q5",
+          "title": "A Giant 5-Meter Tall Chair in a Public Plaza",
+          "prompt": "You are visiting a contemporary arts square in a major city and spot an enormous wooden dining chair that is over 5 meters tall, with miniature ladders for people to climb up onto the seat. Call your friend to describe this surreal monument.",
+          "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Enormous wooden chair standing tall in an open city square with tourists taking photos underneath its giant legs",
+          "features": [
+            "Gargantuan mahogany-stained wooden chair standing taller than a two-story building",
+            "Adult people walking underneath the seat look like tiny figurines in comparison",
+            "A spiral yellow ladder built into the rear left leg allowing visitors to climb to the cushion",
+            "An oversized open book and cup resting on top of the seat as an art statement"
+          ]
+        },
+        {
+          "id": "T8_Q6",
+          "title": "A Transparent Glass Kayak Glowing in the Dark",
+          "prompt": "You are at a coastal bay at dusk and observe a tour group using completely transparent clear-acrylic kayaks with neon LED lights under the hull that illuminate the underwater sea life. Call your roommate to describe this futuristic watercraft.",
+          "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Completely see-through clear acrylic kayak gliding on turquoise water with internal neon LED illumination",
+          "features": [
+            "Entire hull is 100% transparent see-through polycarbonate like glass",
+            "Underneath the vessel, vibrant aqua and purple LED strips illuminate the sea bottom",
+            "Paddlers can clearly see tropical fish, coral reefs, and starfish swimming directly beneath their feet",
+            "The paddles themselves have glowing reflective blades that trace light arcs in the night"
+          ]
+        },
+        {
+          "id": "T8_Q7",
+          "title": "A Robotic Dog Walking a Real Pet Dog",
+          "prompt": "You are sitting at an outdoor sidewalk café and witness a high-tech quadruped robotic dog walking a real golden retriever on a leash with a digital screen on its collar. Call your colleague to describe this futuristic sight.",
+          "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Futuristic mechanical quadruped robot walking alongside a real dog in a modern city street",
+          "features": [
+            "A sleek yellow and black carbon-fiber quadruped robot with 360-degree sensor cameras",
+            "It holds a standard red dog leash in an articulated mechanical arm on its back",
+            "A friendly real golden retriever trotting alongside it, wagging its tail happily",
+            "A small LED digital screen on the robot displaying: 'Pet Companion Bot 3000 – Exercising Bruno'"
+          ]
+        },
+        {
+          "id": "T8_Q8",
+          "title": "An Optical Illusion 3D Street Art Chasm",
+          "prompt": "You are walking across a pedestrian shopping avenue and come across a massive, ultra-realistic 3D chalk drawing painted on the pavement that makes it look like the street has cracked open into a bottomless waterfall canyon. Call your friend to describe this mind-bending artwork.",
+          "imageUrl": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Vibrant 3D pavement chalk illusion painting looking like a massive cracked canyon with waterfalls and rope bridge",
+          "features": [
+            "Hyper-realistic 3D perspective chalk painting covering 30 square meters of brick paving",
+            "Depicts a terrifying subterranean abyss with rushing waterfalls and sharp jagged rock ledges",
+            "A painted rickety wooden rope bridge across the chasm where pedestrians stand to take dramatic photos",
+            "Passersby cautiously stepping around the edges because the illusion looks so frighteningly real"
+          ]
+        },
+        {
+          "id": "T8_Q9",
+          "title": "An Amphibious Motorhome Houseboat on Water",
+          "prompt": "You are taking a ferry across a lake and spot an unbelievable vehicle: a full-sized vintage camper van that has been fitted onto a catamaran boat hull with a spinning boat propeller, sailing smoothly across the open water. Call your brother to describe this bizarre floating motorhome in detail.",
+          "imageUrl": "https://images.unsplash.com/photo-1527786356703-4b100091cd2c?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Vintage camper van body seamlessly engineered into a motorized pontoon houseboat floating serenely across blue water",
+          "features": [
+            "Classic two-tone vintage camper van body perched on twin aluminum pontoon hulls",
+            "A functioning steering wheel visible through the windshield with nautical navigation lights mounted on the vehicle hood",
+            "A retro retractable sun awning extended over a floating wooden deck on the rear with two folding lawn chairs",
+            "Smoke puffing gently out of a miniature chrome woodstove chimney mounted through the fiberglass camper roof"
+          ]
+        },
+        {
+          "id": "T8_Q10",
+          "title": "A Futuristic Treehouse Hotel with a Glass Spiral Skywalk",
+          "prompt": "While hiking in an eco-reserve, you stumble upon a surreal architectural installation: an ultra-modern spherical glass-and-bamboo treehouse suspended 15 meters in the air inside a massive old-growth cedar tree with a spiral glass skywalk. Call your friend to describe this extraordinary structure.",
+          "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Futuristic spherical treehouse with translucent glass walls and a winding elevated spiral ramp winding around a massive tree trunk",
+          "features": [
+            "Spherical pod-like dwelling cradled high in the branches with panoramic curved glass windows",
+            "A spiral illuminated glass suspension walkway winding around the trunk leading up from the forest floor",
+            "Warm golden interior lighting showing a hammock bed, bookshelf, and telescope inside",
+            "Solar photovoltaic shingles arranged in a leaf pattern on the exterior shell powering ambient lights"
+          ]
+        },
+        {
+          "id": "T8_Q11",
+          "title": "A Car Modified as a Giant Yellow Rubber Duck",
+          "prompt": "You are walking down a main city boulevard during a street festival and see a street-legal car completely transformed into an enormous, fluffy bright yellow rubber duck with giant rolling wheels and a motorized orange beak. Call your coworker to describe this hilarious sight.",
+          "imageUrl": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Compact car disguised as an oversized vibrant yellow rubber duck with an orange beak and sunglasses driving down an urban street",
+          "features": [
+            "Entire exterior sculpted and painted like a 3-meter tall cartoonish bright yellow rubber duck",
+            "The driver looks out through tinted glass embedded seamlessly into the duck's dark sunglasses",
+            "The orange bill moves up and down mechanically while a fun speaker quacks to passersby",
+            "Two tiny yellow duckling trailers hitched behind it rolling along like a miniature parade"
+          ]
+        },
+        {
+          "id": "T8_Q12",
+          "title": "A Kinetic Wind-Powered Bicycle with Giant Wings",
+          "prompt": "You are visiting an outdoor modern art festival and observe an eccentric inventor riding a tandem bicycle equipped with enormous, colorful kinetic mechanical butterfly wings that flap gracefully as the rider pedals. Call your friend to describe this whimsical invention.",
+          "imageUrl": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Intricate custom bicycle featuring massive stained-glass-like mechanical wings that flap in rhythm with the pedals",
+          "features": [
+            "Vintage tandem bicycle frame fitted with 4-meter wide translucent butterfly wings made of iridescent silk and carbon fiber",
+            "A complex system of brass gears, chains, and pulleys connected to the pedals making the wings flap rhythmically",
+            "The wings cast dazzling rainbow light patterns onto the pavement as the rider cycles through the crowd",
+            "A small wind turbine on the front handlebar spinning a carousel of miniature brass bells that chime gently"
+          ]
+        },
+        {
+          "id": "T8_Q13",
+          "title": "A High-Rise Skyscraper Blanket in a Living Vertical Forest",
+          "prompt": "You are on an architectural tour in a metropolitan city and stop before an incredible skyscraper: a 25-story residential glass tower whose balconies and facades are completely covered in over 800 living full-sized trees and cascading wild ivy. Call your sister to describe this vertical forest building.",
+          "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Towering modern architectural high-rise with cantilevered concrete balconies lush with mature oak trees and hanging foliage",
+          "features": [
+            "Twenty-five stories of cantilevered staggered concrete terraces overflowing with mature green trees and flowering shrubs",
+            "Looks like a vertical hanging mountain jungle standing right in the middle of concrete office towers",
+            "Flocks of wild birds nesting in the leafy balconies high above city street traffic",
+            "Automated misting systems puffing delicate vapor clouds across the trees to keep the foliage vibrant in the sun"
+          ]
+        },
+        {
+          "id": "T8_Q14",
+          "title": "A Giant Realistic Coffee Cup Spilling onto a Public Plaza",
+          "prompt": "You walk into an arts plaza in front of a municipal library and find an optical sculpture: a 4-meter tall ceramic coffee mug tilted mid-air, with a torrent of amber colored sculpted glass 'coffee' pouring out of it into a public water fountain. Call your friend to describe this dramatic illusion.",
+          "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Monumental public art sculpture of an oversized ceramic coffee mug suspended at a 45-degree angle pouring liquid into a fountain",
+          "features": [
+            "Gargantuan white ceramic coffee mug tilted at a 45-degree angle with steam rising out of its rim",
+            "A thick stream of translucent amber acrylic 'coffee' pouring downward that secretly acts as the structural steel pillar",
+            "The stream splashes into a real decorative fountain with churning brown-tinted water and foamy bubbles",
+            "Passersby standing underneath with their hands cupped pretending to catch the falling coffee for photos"
+          ]
+        },
+        {
+          "id": "T8_Q15",
+          "title": "A Transparent Geodesic Igloo Under Northern Lights",
+          "prompt": "You are staying at a remote winter wilderness lodge in northern Canada and discover a cluster of completely transparent spherical geodesic glass bubble domes in the snow, glowing with interior fireplaces under the green Aurora Borealis. Call your partner to describe this magical accommodation.",
+          "imageUrl": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Futuristic see-through geodesic glass igloo dome nestled in pristine snow with a glowing interior under the vibrant green aurora borealis",
+          "features": [
+            "Spherical geodesic dome constructed of heated, anti-fog triangular glass panels surrounded by deep winter snow",
+            "Inside, a plush Scandinavian wood bed with faux-fur blankets, fairy lights, and a miniature crackling pellet stove",
+            "Through the transparent ceiling, the vivid emerald-green waves of the Northern Lights shimmer across the starry sky",
+            "An insulated snow tunnel connects the dome to a wooden sauna building nestled among frosted pine trees"
+          ]
+        },
+        {
+          "id": "T8_Q16",
+          "title": "A Mind-Bending 3D Chameleon Street Art Mural",
+          "prompt": "You are walking through an urban arts alleyway and encounter an astonishing 3D street mural: a giant, photorealistic chameleon painted on a brick wall that appears to extend a 10-meter long painted tongue right out into the pedestrian street to snatch a painted fly on a lamp post. Call your friend to describe this mind-bending art.",
+          "imageUrl": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=1000&auto=format&fit=crop&q=80",
+          "imageAlt": "Hyper-realistic optical illusion street art mural of a massive multicolored chameleon with its tongue projecting 3D onto the sidewalk",
+          "features": [
+            "Three-story high mural of a colorful textured chameleon clinging to real building drainpipes and bricks",
+            "Its skin pattern changes seamlessly from rough red brick texture on the left to leafy green ivy on the right",
+            "A dramatic trompe-l'œil 3D tongue painted in forced perspective across the alley pavement reaching toward a lamppost",
+            "Pedestrians carefully balancing on the painted tongue taking photos like they are walking a tightrope"
+          ]
+        }
+      ]
+    }
+  }
+}
